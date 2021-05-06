@@ -4,5 +4,5 @@ classes:
   - exercises:
       # `file` is relative to .strigo directory
       - file: "../1-read-data/1-read-data.md"
-        title: "1. Read Data"
+        title: "Read Data"
 
