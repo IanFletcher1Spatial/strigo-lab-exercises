@@ -1,16 +1,11 @@
 # Introduction
 When building a workspace in FME, you will need to add source (input) data. In part one of this tutorial series, you will learn how to open FME Workbench and read in data using the drag-and-drop method. You will also learn what a reader is and how to set one up.
 
-
-
-
 # Scenario
 A water pump has failed and will require maintenance. In order for the pump to be replaced, the water utility company will have to shut off water for an entire service area. You have a list of customer addresses but are not sure which service area these customers belong to. Using a dataset of all the water service areas, you will overlay the addresses on the affected area to determine which customers belong to that area. Then after the customers have been determined, a Microsoft Excel spreadsheet will be created so someone can notify the customers.
 
-
 # Exercise
 After opening FME Workbench, you will learn how to read in a CSV (Comma Separated Value) dataset containing a list of customer addresses for the City of Surrey, British Columbia. Then you will read an Esri Shapefile dataset containing polygon data of water service areas.
-
 
 # Step-by-Step Instructions
 1. Before You Begin
@@ -37,11 +32,11 @@ A reader is a way to “read” data into FME. Depending on the dataset you are 
 
 ![alt text](ReaderOverview.png "Reader Overview")
 
-a. Format and Dataset
+###### a. Format and Dataset
 When dragging and dropping data into FME, the Format, and Dataset auto-populates. Depending on the format you will want to confirm that the Format is correct, as there may be different format types for the same format extension. For our example, the format should be CSV (Comma Separated Value).
 FME can also read different dataset types, like folders, compressed files (.zip, .tar, etc.), and web-based. For more information see the Dataset Types Documentation.
 
-b. Parameters
+###### b. Parameters
 Each format has specific parameters that can be set. To check the parameters, click on the Parameter button, which will bring up the Format Parameters dialog. If the Parameters button has an exclamation point ( ! ) at the end of it; this means that there are mandatory parameters that need to be set. To learn more about your format’s specific parameters you can click on the Help button in the Parameters dialog.
 
 ![alt text](ParametersButton.png "Parameters Button")
@@ -52,13 +47,14 @@ If you are using FME 2019 or older, open the format parameters dialog and switch
 
 ![alt text](2019ReaderParams.png "2019 Reader Parameters")
 
-c. Coordinate System
+###### c. Coordinate System
+
 FME is coordinate system aware, if FME can detect the dataset’s coordinate system, the Coord. System section will say “Read from Source.” If it cannot, it will say “Unknown.” If you know the coordinate system, yet FME doesn’t detect it, you can enter it into the Coord. System box.
 If you opened the parameters, click OK to return to the Add Reader dialog. Set the Coord. System to LL84 by typing it into the box. For more information about Coordinate Systems, see the documentation or the Coordinate Systems 101: The Basics blog post.
 
 ![alt text](CoordSys.png "Coordinate System")
 
-d. Workflow Options
+###### d. Workflow Options
 Workflow Options dictate how the reader feature types appear on the canvas; you can think of a feature type as FME’s version of a layer in a CAD file or sheet in an Excel workbook. “Individual” will have each layer represented as its own feature type and “Single Merged” will have all of the layers represented as one feature type.
 For this example, leave this set to Individual Feature Types and then click OK to finish adding the reader.
 
