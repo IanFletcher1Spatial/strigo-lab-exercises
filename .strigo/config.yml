@@ -5,4 +5,5 @@ classes:
       # `file` is relative to .strigo directory. Don't include number in title--that happens automatically
       - file: "../1-read-data/1-read-data.md"
         title: "Read Data"
-
+      - file: "../2-view-data/exercise.md"
+        title: "View Data"
