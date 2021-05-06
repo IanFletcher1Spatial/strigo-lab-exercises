@@ -2,16 +2,7 @@
 ---
 classes:
   - exercises:
-      # `file` is relative to .strigo directory
+      # `file` is relative to .strigo directory. Don't include number in title--that happens automatically
       - file: "../1-read-data/1-read-data.md"
-        title: "1. Read Data"
-      - file: "../2. View Data.md"
-        title: "2. View Data"
-      - file: "../3. Add a Transformer.md"
-        title: "3. Add a Transformer"
-      - file: "../4. Perform a Spatial Filter and Modify Attributes.md"
-        title: "4. Perform a Spatial Filter and Modify Attributes"
-      - file: "../5. Add a Writer.md"
-        title: "5. Add a Writer"
-      - file: "../6. Write Data.md"
-        title: "6. Write Data"
+        title: "Read Data"
+
