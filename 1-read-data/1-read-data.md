@@ -28,11 +28,11 @@ After FME Workbench opens, click on the New button to create a new workspace. Th
 
 4. Drag and Drop to Add Data
 In your operating system’s file manager, browse to the downloaded GettingStarted/Data folder. In the Data folder, click on the LocalAddresses.csv and drag it into FME Workbench.
-AddCSV.gif
+![alt text](AddCSV.gif "Add CSV")
 
 5. Introduction to the Add Reader Dialog
 A reader is a way to “read” data into FME. Depending on the dataset you are planning on reading in, the parameters for the Add Reader dialog may change. Let’s go over the Add Reader dialog and set our parameters for the LocalAddresses.csv file we just added.
-ReaderOverview.png
+![alt text](ReaderOverview.png "Reader Overview")
 
 a. Format and Dataset
 When dragging and dropping data into FME, the Format, and Dataset auto-populates. Depending on the format you will want to confirm that the Format is correct, as there may be different format types for the same format extension. For our example, the format should be CSV (Comma Separated Value).
@@ -40,33 +40,33 @@ FME can also read different dataset types, like folders, compressed files (.zip,
 
 b. Parameters
 Each format has specific parameters that can be set. To check the parameters, click on the Parameter button, which will bring up the Format Parameters dialog. If the Parameters button has an exclamation point ( ! ) at the end of it; this means that there are mandatory parameters that need to be set. To learn more about your format’s specific parameters you can click on the Help button in the Parameters dialog.
-ParametersButton.png
+![alt text](ParametersButton.png "Parameters Button")
 
 If you are using FME 2020 or newer, there are no parameters to set with this dataset, as FME automatically takes the Latitude and Longitude values in the dataset, and assigns them to the x and y coordinate data type. With this change to the data type, we will see points when we view the data in the next article.  If you have time, explore the parameters.
 
 If you are using FME 2019 or older, open the format parameters dialog and switch the Attribute Definition to Manual. Then change the LONGITUDE and LATITUDE Type to x_coord, and y_coord, respectively.
-2019ReaderParams.png
+![alt text](2019ReaderParams.png "2019 Reader Parameters")
 
 c. Coordinate System
 FME is coordinate system aware, if FME can detect the dataset’s coordinate system, the Coord. System section will say “Read from Source.” If it cannot, it will say “Unknown.” If you know the coordinate system, yet FME doesn’t detect it, you can enter it into the Coord. System box.
 If you opened the parameters, click OK to return to the Add Reader dialog. Set the Coord. System to LL84 by typing it into the box. For more information about Coordinate Systems, see the documentation or the Coordinate Systems 101: The Basics blog post.
-CoordSys.png
+![alt text](CoordSys.png "Coordinate System")
 
 d. Workflow Options
 Workflow Options dictate how the reader feature types appear on the canvas; you can think of a feature type as FME’s version of a layer in a CAD file or sheet in an Excel workbook. “Individual” will have each layer represented as its own feature type and “Single Merged” will have all of the layers represented as one feature type.
 For this example, leave this set to Individual Feature Types and then click OK to finish adding the reader.
-WorkflowOptions.png
+![alt text](WorkflowOptions.png "Workflow Options")
 
 6. Feature Type
 Once you click OK on the Add Reader dialog, a reader feature type will appear on the canvas. A feature type defines the schema of the data being read as well as the layers the dataset possesses. This will be the start of the workspace that everything is built upon.
 For this example, CSV is the feature type name. If you want the reader feature type to reflect the name of the file, you can change this in the reader parameters when you add the data.
-FeatureType.png
+![alt text](FeatureType.png "Feature Type")
 
 7. Add Another Reader
 We need to add one more reader to the canvas before we can get started. To add a second reader, click on the Reader button on the top menu bar. Enter Esri Shapefile as the Format, and then browse to the dataset using the ellipsis button. Find the water_service_area.shp file in the GettingStarted/Data folder. Clear the Coord. System parameter and then click OK. (The Coord. System will still have a value from when we added the CSV file).
 Optionally, you can drag and drop the file from your file browser; just be sure to drag the water_service_area.shp file and not one of the required Shapefile sidecar files.
-EsriReader.png
+![alt text](EsriReader.png "Esri Reader")
 
 8. Continue to Next Article
 With both of the datasets added to the canvas, we can now move on to the next article, where we will view the data. If you are continuing to the next article, please click the save button and then leave your workspace open.
-SaveButton.png
+![alt text](SaveButton.png "Save Button")
