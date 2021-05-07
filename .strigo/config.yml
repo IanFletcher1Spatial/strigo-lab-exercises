@@ -7,3 +7,5 @@ classes:
         title: "Read Data"
       - file: "../2-view-data/exercise.md"
         title: "View Data"
+      - file: "../3-adding-transformers/exercise.md"
+        title: "Adding Transformers"
