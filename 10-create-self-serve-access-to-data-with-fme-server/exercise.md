@@ -1,7 +1,7 @@
 <head><base target="_blank"> </head>
 1\. Open FME Workbench
 
-Open the workspace from [part 2](https://community.safe.com/s/article/publish-a-workspace-to-fme-server-and-run-it) in FME Workbench. Alternatively, open the template attached to this article (CommunityMapping.fmwt) in FME Workbench.
+Open the workspace from the previous exercise in FME Workbench. Alternatively, open the template C:/FMEData2021/Resources/GettingStarted/Workspaces/CommunityMapping.fmwt in FME Workbench.
 
 On the Generic Writer, the default writer format is set to Esri Shapefile. But, the goal is for the user to select the format of their choice, from a small list, at run time. This is accomplished with published parameters.
 

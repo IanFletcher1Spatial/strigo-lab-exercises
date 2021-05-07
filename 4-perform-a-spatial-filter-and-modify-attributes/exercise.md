@@ -2,7 +2,7 @@
 
 Since we want to know which customers are affected by the failed water pump, we will need to filter the customers based on their spatial relationship to the water_service_area with a RED status. After we have determined which customers are affected, we will need to clean up the attributes before we can write the data out.
 
-Continue working in the workspace from the previous exercise or download the [GettingStarted-FilterAndModify-Begin.fmwt](https://community.safe.com/s/relatedlist/ka14Q000000lK7XQAU/AttachedContentDocuments) workspace.\
+Continue working in the workspace from the previous exercise or open the C:/FMEData2021/Resources/GettingStarted/Workspaces/GettingStarted-FilterAndModify-Begin.fmwt workspace.\
 ![PreviousOverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7X&feoid=00N30000006n8wU&refid=0EM4Q0000028b3R)
 
 1\.  Add Another Transformer\

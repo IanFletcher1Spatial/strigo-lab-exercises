@@ -1,5 +1,5 @@
 <head><base target="_blank"> </head>
-Continue working in the workspace from the previous exercise or download the [GettingStarted-ViewData-Begin.fmwt](https://community.safe.com/s/relatedlist/ka14Q000000lK7NQAU/AttachedContentDocuments) workspace.
+Continue working in the workspace from the previous exercise or open C:/FMEData2021/Resources/GettingStarted/Workspaces/GettingStarted-ViewData-Begin.fmwt
 
 1\. View Source Data\
 The data we added in the previous exercise can be viewed within FME Workbench. Since we have two datasets, we can view them at the same time. To do this, we need to run the workspace with feature caching enabled.\
@@ -34,7 +34,7 @@ The Feature Information View is where any additional information about a feature
 ![FeatureTypeView.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7N&feoid=00N30000006n8wU&refid=0EM4Q0000028b11)
 
 4\. Explore CSV Data\
-With the CSV LocalAddresses open in the Visual Preview window, take a moment to explore the dataset. In the Table View, we have addresses and a latitude/longitude location. FME 2020 or newer, automatically turns the latitude and longitude into point data which can be seen in the Graphics View. If you don't see points, and you are running FME 2019 or older, go back to the [previous article](https://community.safe.com/s/article/getting-started-with-fme-desktop-read-data) and edit the reader parameters as shown in step 5b.
+With the CSV LocalAddresses open in the Visual Preview window, take a moment to explore the dataset. In the Table View, we have addresses and a latitude/longitude location. FME 2020 or newer, automatically turns the latitude and longitude into point data which can be seen in the Graphics View. 
 
 5\. Explore water_service_area data\
 Now, view the water_service_area data in Visual Preview by clicking on the green magnifying glass on the reader feature type.\

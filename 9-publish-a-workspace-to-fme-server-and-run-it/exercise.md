@@ -1,7 +1,7 @@
 <head><base target="_blank"> </head>
 1\. Open FME Workbench
 
-In FME Workbench, open the communitymapping.fmwt workspace that is attached to this article.
+In FME Workbench, open the C:/FMEData2021/Resources/GettingStarted/Workspaces/communitymapping.fmwt workspace.
 
 It's a straightforward workspace, taking community mapping data from a file geodatabase and writing it to the Generic format. The Generic Writer is very flexible and allows for the user to decide which format to write to when the workspace runs. Currently, it's been setup to write to Esri Shapefile. Confirm that by taking a look at the Output Format parameter in the Navigator window, or with Prompt for User Parameters selected by running the workspace.
 

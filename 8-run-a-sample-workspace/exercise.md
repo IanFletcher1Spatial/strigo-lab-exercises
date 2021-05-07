@@ -36,11 +36,3 @@ FME will narrow the workspaces down to only those in the repository that you sel
 4. Click on Run
 
 When the job is ready, the button will turn green; click on the run button. After the workspace is executed by FME, the result, a kmz file in this case, will be downloaded through the browser. Feel free to view the downloaded data by opening it in Google Earth or FME Data Inspector.
-
-
-
-
-
-Data Attribution
-
-The data used here originates from open data made available by the City of Vancouver , British Columbia. It contains information licensed under the Open Government License - Vancouver.
