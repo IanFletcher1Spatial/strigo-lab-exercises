@@ -1,3 +1,4 @@
+<head><base target="_blank"> </head>
 1\. Open FME Workbench
 
 Open the workspace from [part 2](https://community.safe.com/s/article/publish-a-workspace-to-fme-server-and-run-it) in FME Workbench. Alternatively, open the template attached to this article (CommunityMapping.fmwt) in FME Workbench.

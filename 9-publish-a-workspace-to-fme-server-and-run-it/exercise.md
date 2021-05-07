@@ -1,3 +1,4 @@
+<head><base target="_blank"> </head>
 1\. Open FME Workbench
 
 In FME Workbench, open the communitymapping.fmwt workspace that is attached to this article.

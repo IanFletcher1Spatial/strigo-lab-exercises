@@ -1,4 +1,4 @@
-Introduction
+<head><base target="_blank"> </head>
 ------------
 
 Data transformation is FME's ability to manipulate data. The transformation step occurs during the process of format translation. Data is read, transformed, and then written to the chosen format. A transformer is an FME Workbench object that carries out the transformation of features. Each transformer has its own unique function and can be strung together in a series to achieve complex tasks. In part three of this tutorial series, we will add a transformer to the canvas using Quick Add and then modify the parameters.

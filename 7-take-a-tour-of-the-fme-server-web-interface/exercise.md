@@ -1,3 +1,4 @@
+<head><base target="_blank"> </head>
 1\. Open the FME Server Web Interface
 
 You can open the FME Server Web User Interface in a couple of different ways:

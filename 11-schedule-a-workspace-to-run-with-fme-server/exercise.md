@@ -1,3 +1,4 @@
+<head><base target="_blank"> </head>
 1\. Open FME Server Web User Interface and Create a New Automation
 
 Open the FME Server Web User Interface and log in. On the side menu bar, click on Automations > Build Automation.

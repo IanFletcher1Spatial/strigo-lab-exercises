@@ -1,3 +1,4 @@
+<head><base target="_blank"> </head>
 FME Server comes pre-loaded with sample workspaces, which are good to use for testing various workflows. Let’s run one of these sample workspaces.
 
 
