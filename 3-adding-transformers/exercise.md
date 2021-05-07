@@ -1,21 +1,8 @@
 <head><base target="_blank"> </head>
-------------
-
-Data transformation is FME's ability to manipulate data. The transformation step occurs during the process of format translation. Data is read, transformed, and then written to the chosen format. A transformer is an FME Workbench object that carries out the transformation of features. Each transformer has its own unique function and can be strung together in a series to achieve complex tasks. In part three of this tutorial series, we will add a transformer to the canvas using Quick Add and then modify the parameters.
-
-Scenario
---------
-
-A water pump has failed and will require maintenance. In order for the pump to be replaced, the water utility company will have to shut off water for an entire service area. You have a list of customer addresses but are not sure which service area these customers belong to. Using a dataset of all the water service areas, you will overlay the addresses on the affected area to determine which customers belong to that area. Then after the customers have been determined, a Microsoft Excel spreadsheet will be created so someone can notify the customers.
-
-Exercise
---------
 
 When we viewed the data in Visual Preview, we noted that we can select only the water_service_area that has the Status of RED. To select this water_service_area, we will use the Tester transformer.
 
-#### Step-by-Step Instructions
-
-Continue working in the workspace from the [previous article](https://community.safe.com/s/article/getting-started-with-fme-desktop-view-data) or download the GettingStarted-AddingTransformers-Begin.fmwt workspace.
+Continue working in the workspace from the previous exercise or download the [GettingStarted-AddingTransformers-Begin.fmwt](https://community.safe.com/s/relatedlist/ka14Q000000lK7SQAU/AttachedContentDocuments) workspace.
 
 1\. Add a Transformer\
 When modifying data in FME, you will need to use a transformer. To add a transformer, click anywhere on the canvas and start typing the transformer name you wish to add. When you start typing, the Quick Add dialog will appear; from this dialog transformers, readers, and writers can be added by just typing their name.\
@@ -58,6 +45,3 @@ Click on the Run button on the top menu bar. After the workspace has run, there 
 
 In Visual Preview, you can confirm that there is one water_service_area with the Status of RED.\
 ![TesterOutput.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7S&feoid=00N30000006n8wU&refid=0EM4Q0000028b2x)
-
-6\. Continue to Next Article\
-If you are continuing to the [next article](https://community.safe.com/s/article/getting-started-with-fme-desktop-modify-attributes), please leave your workspace open.

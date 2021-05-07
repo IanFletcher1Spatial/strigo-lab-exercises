@@ -1,22 +1,8 @@
 <head><base target="_blank"> </head>
-Introduction
-------------
-
-Once the data has been read into the workspace and manipulated with transformer(s) (if desired), it needs to be written out to a file using a writer. In part five of this tutorial series, you will learn how to add and set up a writer.
-
-Scenario
---------
-
-A water pump has failed and will require maintenance. In order for the pump to be replaced, the water utility company will have to shut off water for an entire service area. You have a list of customer addresses but are not sure which service area these customers belong to. Using a dataset of all the water service areas, you will overlay the addresses on the affected area to determine which customers belong to that area. Then after the customers have been determined, a Microsoft Excel spreadsheet will be created so someone can notify the customers.
-
-Exercise
---------
 
 Now that we have filtered out which customers are within the affected water_service_area, as well as cleaned up the attributes, we are now ready to write the data out to a Microsoft Excel spreadsheet.
 
-#### Step-by-Step Instructions
-
-Continue working in the workspace from the [previous article](https://community.safe.com/s/article/getting-started-with-fme-desktop-modify-attributes) or download the GettingStarted-AddAWriter-Begin.fmwt workspace.\
+Continue working in the workspace from the previous exercise or download the [GettingStarted-AddAWriter-Begin.fmwt](https://community.safe.com/s/relatedlist/ka14Q000000lK7mQAE/AttachedContentDocuments) workspace.\
 ![StartingWorkspace.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7m&feoid=00N30000006n8wU&refid=0EM4Q0000028bX7)
 
 1\. Add a Writer\
@@ -59,6 +45,3 @@ Set the Sheet Name to Addresses and click OK. There are other parameters that co
 4\. Connect the Writer Feature Type\
 Once the Addresses writer feature type has been added to the canvas, it needs to be connected to the workflow. Click on the output port of the AttributeManager transformer drag to connect to the writer feature type input port.\
 ![ConnectedWriter.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7m&feoid=00N30000006n8wU&refid=0EM4Q0000028bXl)
-
-5\. Continue to Next Article\
-If you are continuing to the [next article](https://community.safe.com/s/article/getting-started-with-fme-desktop-write-data), please leave your workspace open.

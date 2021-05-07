@@ -1,27 +1,8 @@
 <head><base target="_blank"> </head>
-Introduction
-------------
-
-Visualizing data is a crucial step when building a workspace. It is essential to know how the data looks and what will need to be modified before the final output. In part two of this tutorial series, you will learn how to visualize data in FME Workbench 2021 using the Visual Preview window.
-
-If you are using FME Desktop 2018.1 and older, please see [Getting Started with FME Desktop: Introduction to FME Data Inspector](https://community.safe.com/s/article/getting-started-with-fme-desktop-introduction-to-f) to learn how to inspect data.
-
-Scenario
---------
-
-A water pump has failed and will require maintenance. In order for the pump to be replaced, the water utility company will have to shut off water for an entire service area. You have a list of customer addresses but are not sure which service area these customers belong to. Using a dataset of all the water service areas, you will overlay the addresses on the affected area to determine which customers belong to that area. Then after the customers have been determined, a Microsoft Excel spreadsheet will be created so someone can notify the customers.
-
-Exercise
---------
-
-With the data read in, we should view it using the Visual Preview window. Viewing the data will help determine what we will need to do in order to output our final Microsoft Excel spreadsheet with the affected customers.
-
-#### Step-by-Step Instructions
-
-Continue working in the workspace from the [previous article](https://community.safe.com/s/article/getting-started-with-fme-desktop-read-data) or download the GettingStarted-ViewData-Begin.fmwt workspace.
+Continue working in the workspace from the previous exercise or download the [GettingStarted-ViewData-Begin.fmwt](https://community.safe.com/s/relatedlist/ka14Q000000lK7NQAU/AttachedContentDocuments) workspace.
 
 1\. View Source Data\
-The data we added in the [previous article](https://community.safe.com/s/article/getting-started-with-fme-desktop-read-data) can be viewed within FME Workbench. Since we have two datasets, we can view them at the same time. To do this, we need to run the workspace with feature caching enabled.\
+The data we added in the previous exercise can be viewed within FME Workbench. Since we have two datasets, we can view them at the same time. To do this, we need to run the workspace with feature caching enabled.\
 On the top toolbar, click the drop-down arrow next to the Run button. In the drop-down menu, ensure that Feature Caching is enabled. Now when we run the workspace, the data will be cached along the way, and we can view those caches.\
 ![EnableFeatureCaching.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7N&feoid=00N30000006n8wU&refid=0EM4Q0000028b0I)
 
@@ -65,7 +46,4 @@ Looking at the Table View for water_service_area you can see that there is an ar
 6\. View Both Datasets Together\
 When you click on the magnifying glass to view data in Visual Preview, only one dataset loads at a time. If you want to view all the data together, click and drag a box around all objects you wish to view.
 
-In the [next article](https://community.safe.com/s/article/getting-started-with-fme-desktop-adding-transforme), after we filter the data based on the RED status, we will only select the points that fall within the selected water_service_area.
-
-7\. Continue to Next Article\
-If you are continuing to the [next article](https://community.safe.com/s/article/getting-started-with-fme-desktop-adding-transforme), please leave your workspace open.
+In the next exercise, after we filter the data based on the RED status, we will only select the points that fall within the selected water_service_area.

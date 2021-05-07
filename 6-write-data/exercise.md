@@ -1,20 +1,8 @@
 <head><base target="_blank"> </head>
-Introduction
-------------
 
 The final step in creating any workspace in FME is to run the workspace. Running the workspace initiates the flow of data from input through any transformers to writing the data to disk with a writer. In part six of this tutorial series, you will learn how to run a workspace to completion and view the Translation Log.
 
-Scenario
---------
-
-A water pump has failed and will require maintenance. In order for the pump to be replaced, the water utility company will have to shut off water for an entire service area. You have a list of customer addresses but are not sure which service area these customers belong to. Using a dataset of all the water service areas, you will overlay the addresses on the affected area to determine which customers belong to that area. Then after the customers have been determined, a Microsoft Excel spreadsheet will be created so someone can notify the customers.
-
-Exercise
---------
-
 The final step before we can hand off the affected customers list is to run the workspace to create the actual file.
-
-#### Step-by-Step Instructions
 
 Continue working in the workspace from the [previous article](https://community.safe.com/s/article/getting-started-with-fme-desktop-add-a-writer) or download the GettingStarted-WriteData-Begin.fmwt workspace.
 

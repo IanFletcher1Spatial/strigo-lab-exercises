@@ -1,22 +1,8 @@
 <head><base target="_blank"> </head>
-Introduction
-------------
-
-Chaining transformers together is common in FME. Rarely will your data transformation needs be met with a single or no transformers. Transformers can also be used to join two or more datasets together or be used to compare datasets. In part four of this series, we will use another transformer to filter the data spatially, as well as another transformer to modify our attributes.
-
-Scenario
---------
-
-A water pump has failed and will require maintenance. In order for the pump to be replaced, the water utility company will have to shut off water for an entire service area. You have a list of customer addresses but are not sure which service area these customers belong to. Using a dataset of all the water service areas, you will overlay the addresses on the affected area to determine which customers belong to that area. Then after the customers have been determined, a Microsoft Excel spreadsheet will be created so someone can notify the customers.
-
-Exercise
---------
 
 Since we want to know which customers are affected by the failed water pump, we will need to filter the customers based on their spatial relationship to the water_service_area with a RED status. After we have determined which customers are affected, we will need to clean up the attributes before we can write the data out.
 
-#### Step-by-Step Instructions
-
-Continue working in the workspace from the [previous article](https://community.safe.com/s/article/getting-started-with-fme-desktop-adding-transforme) or download the GettingStarted-FilterAndModify-Begin.fmwt workspace.\
+Continue working in the workspace from the previous exercise or download the [GettingStarted-FilterAndModify-Begin.fmwt](https://community.safe.com/s/relatedlist/ka14Q000000lK7XQAU/AttachedContentDocuments) workspace.\
 ![PreviousOverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7X&feoid=00N30000006n8wU&refid=0EM4Q0000028b3R)
 
 1\.  Add Another Transformer\
@@ -48,6 +34,3 @@ After removing _predicate, you'll notice that the Input Attribute is still there
 
 While we're here, let's also rename the LOCALITY attribute to CITY. Click on the LOCALITY box under Output Attribute, and then type CITY. You'll notice that the Action has changed to Rename. Click OK to close the AttributeManager.\
 ![RenameCity.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7X&feoid=00N30000006n8wU&refid=0EM4Q0000028b4A)
-
-5\. Continue to Next Article\
-If you are continuing to the [next article](https://community.safe.com/s/article/getting-started-with-fme-desktop-add-a-writer), please leave your workspace open.

@@ -54,6 +54,6 @@ We need to add one more reader to the canvas before we can get started. To add a
 Optionally, you can drag and drop the file from your file browser; just be sure to drag the water_service_area.shp file and not one of the required Shapefile sidecar files.\
 ![EsriReader.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028aze)
 
-8\. Continue to Next Article\
-With both of the datasets added to the canvas, we can now move on to the next article, where we will view the data. If you are continuing to the next article, please click the save button and then leave your workspace open.\
+8\. Save Your Workspace\
+Click the save button and then leave your workspace open.\
 ![SaveButton.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028b0D)
