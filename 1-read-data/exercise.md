@@ -1,5 +1,5 @@
 1\. Before You Begin\
-Before you begin, ensure that you have FME Desktop installed on your computer and that it is licensed. You can [download a free 30-day trial](https://www.safe.com/fme/trial/) to get started.\
+Before you begin, ensure that you have FME Desktop installed on your computer and that it is licensed. You can [download a free 30-day trial](https://www.safe.com/fme/trial/ target="_blank") to get started.\
 Next, to follow along with these instructions, download the data from the Files section of this article, which is located at the top-right corner. Unzip the data to a location on your computer; we recommend your documents folder but anywhere works.\
 If you get stuck along the way, there are also beginning and complete workspaces in the Files section that you can refer to.
 
