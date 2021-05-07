@@ -2,10 +2,26 @@
 ---
 classes:
   - exercises:
-      # `file` is relative to .strigo directory. Don't include number in title--that happens automatically
+      # `file` is relative to .strigo directory. Don't include number in title--that happens automatically.
       - file: "../1-read-data/1-read-data.md"
         title: "Read Data"
       - file: "../2-view-data/exercise.md"
         title: "View Data"
       - file: "../3-adding-transformers/exercise.md"
         title: "Adding Transformers"
+      - file: "../4-perform-a-spatial-filter-and-modify-attributes/exercise.md"
+        title: "Perform a Spatial Filter & Modify Attributes"
+      - file: "../5-add-a-writer/exercise.md"
+        title: "Adding a Writer"
+      - file: "../6-write-data/exercise.md"
+        title: "Write Data"
+      - file: "../7-take-a-tour-of-the-fme-server-web-interface/exercise.md"
+        title: "Take a Tour of the FME Server Web Interface"
+      - file: "../8-run-a-sample-workspace/exercise.md"
+        title: "Run a Sample Workspace"
+      - file: "../9-publish-a-workspace-to-fme-server-and-run-it/exercise.md"
+        title: "Publish a Workspace to FME Server and Run It"
+      - file: "../10-create-self-serve-access-to-data-with-fme-server/exercise.md"
+        title: "Publish a Workspace to FME Server and Run It"
+      - file: "../11-schedule-a-workspace-to-run-with-fme-server/exercise.md"
+        title: "Schedule a Workspace to Run with FME Server"
