@@ -3,6 +3,9 @@
 classes:
   - exercises:
       # `file` is relative to .strigo directory. Don't include number in title--that happens automatically.
+      #In Atom, create the file and title here. Then edit the MD file.
+      #Use https://euangoddard.github.io/clipboard2markdown/  to create the clipboard2markdown
+      #Add <head><base target="_blank"> </head> to the top of the MD file.
       - file: "../1-read-data/exercise.md"
         title: "Read Data"
       - file: "../2-view-data/exercise.md"
