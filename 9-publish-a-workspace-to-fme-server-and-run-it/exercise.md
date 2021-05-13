@@ -1,4 +1,5 @@
 <head><base target="_blank"> </head>
+
 1\. Open FME Workbench\
 
 In FME Workbench, open the C:/FMEData2021/Resources/GettingStarted/Workspaces/communitymapping.fmwt workspace.

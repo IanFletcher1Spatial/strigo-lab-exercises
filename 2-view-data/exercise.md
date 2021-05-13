@@ -1,6 +1,6 @@
 <head><base target="_blank"> </head>
 
-Continue working in the workspace from the previous exercise or open C:/FMEData2021/Resources/GettingStarted/Workspaces/GettingStarted-ViewData-Begin.fmwt\
+Continue working in the workspace from the previous exercise or open C:/FMEData2021/Resources/GettingStarted/Workspaces/GettingStarted-ViewData-Begin.fmwt
 
 1\. View Source Data\
 The data we added in the previous exercise can be viewed within FME Workbench. Since we have two datasets, we can view them at the same time. To do this, we need to run the workspace with feature caching enabled.\
