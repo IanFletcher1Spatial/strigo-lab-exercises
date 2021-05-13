@@ -1,6 +1,6 @@
 <head><base target="_blank"> </head>
 
-1\. Open FME Server Web User Interface and Create a New Automation
+#### 1\. Open FME Server Web User Interface and Create a New Automation
 
 Open the FME Server Web User Interface and log in. On the side menu bar, click on Automations > Build Automation.
 
@@ -8,7 +8,7 @@ Open the FME Server Web User Interface and log in. On the side menu bar, click o
 
 This opens the Automations page. Close the Get Started popup that appears. This is the automations builder; here we can create an automation to automate any FME Server task. For more information on automations, see the [Getting Started with Automations](https://community.safe.com/s/article/getting-started-with-automations).
 
-2\. Set up Trigger
+#### 2\. Set up Trigger
 
 When creating a new automation, a Trigger component will already be on the canvas, you will just need to set it up. Double-click on the Trigger component to open the parameters.
 
@@ -20,7 +20,7 @@ For this schedule, we want it to run once daily at the same time. To do this, se
 
 ![scheduleparams.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8G&feoid=00N30000006n8wU&refid=0EM4Q000001YT2e)
 
-3\. Add and Configure an Action
+#### 3\. Add and Configure an Action
 
 With the Trigger set up, we need our schedule to do something. Double-click on the silhouetted Next Action component downstream of your new Schedule Trigger. This will open the Action parameters.
 
@@ -30,7 +30,7 @@ For our parameters that we set up in the previous tutorial, set Esri Shapefile a
 
 ![CommunityMapping.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8G&feoid=00N30000006n8wU&refid=0EM4Q0000028bzL)
 
-4\. Save and Start Automation
+#### 4\. Save and Start Automation
 
 This automation is simple but very powerful as it allows a workspace to be run every day without the user needing to do anything beyond setting up the automation. Before the schedule is initiated, the automation needs to be saved then started.
 
@@ -50,23 +50,23 @@ When the automation is running, there will be a red Stop Automation button where
 
 ![runningautomation.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8G&feoid=00N30000006n8wU&refid=0EM4Q000001YT2j)
 
-5\. Verify that the Workspace Runs Successfully
+#### 5\. Verify that the Workspace Runs Successfully
 
 Since you left Start Immediately checked, CommunityMapping.fmw started running when you clicked Start Automation. There are two ways to check the status of your automation and its triggered jobs.
 
-a. View the Automation Log
+*a. View the Automation Log*
 
 From the automation page, click Menu > View Triggered Jobs. A list of jobs run by this automation appears. These jobs can also be accessed by going to Jobs > Completed.
 
 ![completedjob.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8G&feoid=00N30000006n8wU&refid=0EM4Q000001YT2k)
 
-b. View the Log File
+*b. View the Log File*
 
 The second way to see if the automation was successful is by viewing the log files. These files can be accessed by going to Menu > View Log File while in the automation.
 
 ![logfile.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8G&feoid=00N30000006n8wU&refid=0EM4Q000001YT2l)
 
-6\. Trigger a Schedule
+#### 6\. Trigger a Schedule
 
 When we set up our schedule, we enabled Run Immediately, which caused the automation to fire once we started it and then it will repeat every day at the same time as when we started the automation. But what if we wanted the workspace to be run at 3am, while we were starting the automation at 2pm, and we just wanted to test the schedule to ensure it worked.
 

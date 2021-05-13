@@ -4,7 +4,7 @@ When we viewed the data in Visual Preview, we noted that we can select only the 
 
 Continue working in the workspace from the previous exercise or open the C:/FMEData2021/Resources/GettingStarted/Workspaces/GettingStarted-AddingTransformers-Begin.fmwt workspace.
 
-1\. Add a Transformer\
+#### 1\. Add a Transformer
 When modifying data in FME, you will need to use a transformer. To add a transformer, click anywhere on the canvas and start typing the transformer name you wish to add. When you start typing, the Quick Add dialog will appear; from this dialog transformers, readers, and writers can be added by just typing their name.\
 ![QuickAddTester.gif](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7S&feoid=00N30000006n8wU&refid=0EM4Q0000028b1u)
 
@@ -13,10 +13,11 @@ Once you have found the transformer you are looking for in Quick Add, either cli
 
 To start, we will add a Tester transformer. This transformer will let us filter the data based on an attribute value, such as STATUS = RED.
 
-2\. Connect the Transformer\
+#### 2\. Connect the Transformer
 To use the transformer, it must be connected to the workflow. Click on the output arrow on the water_service_area reader feature type and drag to the input arrow on the Tester transformer. When they are correctly connected, a line will appear between them. Additionally, once they are connected attributes from earlier in the workflow can be accessed in the transformer.\
 ![ConnectionLine.gif](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7S&feoid=00N30000006n8wU&refid=0EM4Q0000028b24)\
-3\. Open the Transformer Parameters\
+
+#### 3\. Open the Transformer Parameters
 The parameter button (cogwheel) on a transformer is color-coded to reflect the status of the settings.\
 A red cogwheel indicates that there is at least one parameter value that needs to be added.\
 ![ParamRed.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7S&feoid=00N30000006n8wU&refid=0EM4Q0000028b25)\
@@ -29,16 +30,16 @@ To open the transformer parameters dialog, double-click on the transformer. Para
 
 Double-click on the Tester transformer to open the parameters.
 
-4\. Create a Test in the Tester\
+#### 4\. Create a Test in the Tester
 In the Tester parameters, a test clause (conditional statement) can be created to filter data. Click on the red box under Left Value to show the drop-down arrow. Click on the drop-down arrow and expand Attribute Value, then click on STATUS.\
 ![TesterRightValue.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7S&feoid=00N30000006n8wU&refid=0EM4Q0000028b2T)\
 This drop-down menu shows all of the attribute values available for a specific parameter.\
 Next, click on the box under Right Value and type in RED. Automatically the Operator gets set to equals by default. If you are looking for a different operator, click on the box to expand the list. Click OK to accept the parameters and close the dialog. For more information on using the Tester, see the [documentation](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/tester.htm).
 
-Note: As of 2020.1 or newer, certain transformers are data-aware, which enables the user to select cached values from within the transformer instead of manually typing them. For this tutorial, we will be manually typing in the values. For more information, see this [Expert Note](https://community.safe.com/s/question/0D54Q00008C1GaNSAV/expert-notes-dataaware-transformers-in-20201).\
+> Note: As of 2020.1 or newer, certain transformers are data-aware, which enables the user to select cached values from within the transformer instead of manually typing them. For this tutorial, we will be manually typing in the values. For more information, see this [Expert Note](https://community.safe.com/s/question/0D54Q00008C1GaNSAV/expert-notes-dataaware-transformers-in-20201).\
 ![SetUpTester.gif](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7S&feoid=00N30000006n8wU&refid=0EM4Q0000028b2n)
 
-5\. Run and Inspect the Test\
+#### 5\. Run and Inspect the Test
 Since feature caching is enabled, the workspace can be run to the Tester, and the caches can be inspected in Visual Preview. Running your workspace often to check that the output is what you expected from a transformer is good practice.\
 Click on the Run button on the top menu bar. After the workspace has run, there should be a 1 next to the Passed output port on the Tester, and a 3 next to the Failed output port. Click on the green magnifying glass on the Passed output port to open it in Visual Preview.\
 ![RunTester.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7S&feoid=00N30000006n8wU&refid=0EM4Q0000028b2s)

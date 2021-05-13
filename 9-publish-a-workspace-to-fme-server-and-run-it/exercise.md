@@ -1,6 +1,6 @@
 <head><base target="_blank"> </head>
 
-1\. Open FME Workbench\
+#### 1\. Open FME Workbench
 
 In FME Workbench, open the C:/FMEData2021/Resources/GettingStarted/Workspaces/communitymapping.fmwt workspace.
 
@@ -8,13 +8,13 @@ It's a straightforward workspace, taking community mapping data from a file geod
 
 ![workspaceoverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000slOG&feoid=00N30000006n8wU&refid=0EM4Q000001YT1s)
 
-2\. Run the workspace
+#### 2\. Run the workspace
 
 It is always a good idea to run a workspace in FME Workbench before publishing it to FME Server because if it doesn't run in FME Workbench, it won't run in FME Server. Run the workspace and confirm it was successful. See [Getting Started with FME Desktop: Write Data](https://community.safe.com/s/article/getting-started-with-fme-desktop-write-data) to learn how to run a workspace in FME Workbench.
 
 It is also good practice to save the workspace before publishing as well.
 
-3\. Publish Workspace to FME Server
+#### 3\. Publish Workspace to FME Server
 
 Now that we have confirmed the workspace works, we can publish it to FME Server. With the workspace open, go to File > Publish to FME Server on the top menu bar.
 
@@ -72,7 +72,7 @@ To confirm whether or not the workspace was published successfully, check the Tr
 
 ![publishlog.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000slOG&feoid=00N30000006n8wU&refid=0EM4Q000001YT22)
 
-4\. Open the FME Server Web User Interface.
+#### 4\. Open the FME Server Web User Interface.
 
 Log in to the FME Server Web User Interface using the credentials you set up in [Tutorial: Getting Started with FME Server](https://community.safe.com/s/article/getting-started-with-fme-server).
 
@@ -80,7 +80,7 @@ The workspace will appear in the "Last Published Workspaces" section of the home
 
 ![lastpublished.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000slOG&feoid=00N30000006n8wU&refid=0EM4Q000001YT23)
 
-5\. Run the Workspace
+#### 5\. Run the Workspace
 
 You can choose to run the workspace by clicking on the CommunityMapping.fmwt in the Last Published Workspaces section or by clicking on Run Workspace on the side menu bar.
 
@@ -90,7 +90,7 @@ On the Run Workspaces page, select the Repository Server Tutorial. The Workspace
 
 Click on Run to run the workspace once all the parameters are set.
 
-6\. Review the Results Page
+#### 6\. Review the Results Page
 
 After the workspace has been run, there should be a successful translation with some summary information and a data download URL.
 
