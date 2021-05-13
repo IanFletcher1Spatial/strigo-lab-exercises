@@ -1,4 +1,5 @@
 <head><base target="_blank"> </head>
+
 1\. Open FME Workbench
 
 Open the workspace from the previous exercise in FME Workbench. Alternatively, open the template C:/FMEData2021/Resources/GettingStarted/Workspaces/CommunityMapping.fmwt in FME Workbench.
