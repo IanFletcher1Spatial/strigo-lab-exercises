@@ -1,23 +1,23 @@
 <head><base target="_blank"> </head>
 
-## 1\. Before You Begin\
+### 1\. Before You Begin\
 Before you begin, ensure that you have FME Desktop installed on your computer and that it is licensed. You can [download a free 30-day trial](https://www.safe.com/fme/trial/) to get started.\
 Next, to follow along with these instructions, download the data from the Files section of this article, which is located at the top-right corner. Unzip the data to a location on your computer; we recommend your documents folder but anywhere works.\
 If you get stuck along the way, there are also beginning and complete workspaces in the Files section that you can refer to.
 
-## 2\. Open FME Workbench\
+### 2\. Open FME Workbench\
 Open FME Workbench to start creating a workspace. To do this in Windows go to Start > FME Desktop 2021.0 > FME Workbench. In macOS, go to Applications > FME 2021.0 > FME Workbench.\
 We will be using FME Workbench for the entirety of the tutorial series. FME Workbench is where you will author all of your workspaces.
 
-## 3\. Start a New Workspace\
+### 3\. Start a New Workspace\
 After FME Workbench opens, click on the New button to create a new workspace. The empty workspace is referred to as the "canvas." The canvas is where all of the objects in a workspace will be contained. If you have just installed FME, click on Close to exit Workbench Essentials, it can be accessed again via Help > Workbench Essentials.\
 ![WorkbenchOverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azF)
 
-## 4\. Drag and Drop to Add Data\
+### 4\. Drag and Drop to Add Data\
 In your operating system's file manager, browse to the C:/FMEData2021/Resources/GettingStarted/Data folder. In the Data folder, click on the LocalAddresses.csv and drag it into FME Workbench.\
 ![AddCSV.gif](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azK)
 
-## 5\. Introduction to the Add Reader Dialog\
+### 5\. Introduction to the Add Reader Dialog\
 A reader is a way to "read" data into FME. Depending on the dataset you are planning on reading in, the parameters for the Add Reader dialog may change. Let's go over the Add Reader dialog and set our parameters for the LocalAddresses.csv file we just added.\
 ![ReaderOverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azP)
 
@@ -44,16 +44,16 @@ If you opened the parameters, click OK to return to the Add Reader dialog. Set t
 For this example, leave this set to Individual Feature Types and then click OK to finish adding the reader.\
 ![WorkflowOptions.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028b08)
 
-## 6\. Feature Type\
+### 6\. Feature Type\
 Once you click OK on the Add Reader dialog, a reader feature type will appear on the canvas. A feature type defines the schema of the data being read as well as the layers the dataset possesses. This will be the start of the workspace that everything is built upon.\
 For this example, CSV is the feature type name. If you want the reader feature type to reflect the name of the file, you can change this in the reader parameters when you add the data.\
 ![FeatureType.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azZ)
 
-## 7\. Add Another Reader\
+### 7\. Add Another Reader\
 We need to add one more reader to the canvas before we can get started. To add a second reader, click on the Reader button on the top menu bar. Enter Esri Shapefile as the Format, and then browse to the dataset using the ellipsis button. Find the water_service_area.shp file in the C:/FMEData2021/Resources/GettingStarted/Data folder. Clear the Coord. System parameter and then click OK. (The Coord. System will still have a value from when we added the CSV file).\
 Optionally, you can drag and drop the file from your file browser; just be sure to drag the water_service_area.shp file and not one of the required Shapefile sidecar files.\
 ![EsriReader.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028aze)
 
-## 8\. Save Your Workspace\
+### 8\. Save Your Workspace\
 Click the save button and then leave your workspace open.\
 ![SaveButton.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028b0D)
