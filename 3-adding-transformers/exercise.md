@@ -46,3 +46,5 @@ Click on the Run button on the top menu bar. After the workspace has run, there 
 
 In Visual Preview, you can confirm that there is one water_service_area with the Status of RED.\
 ![TesterOutput.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7S&feoid=00N30000006n8wU&refid=0EM4Q0000028b2x)
+
+#### 6. Click "Next"

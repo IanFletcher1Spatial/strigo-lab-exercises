@@ -75,3 +75,5 @@ When setting up the schedule, set the time and date to when you would like the w
 Once the automation has been started, if you double-click on the Schedule component to open the parameters, a Trigger button will appear at the bottom. You can't modify any of the parameters because the automation is running, but you can trigger it to initiate the schedule. This is useful for testing purposes without having to later modify the scheduled start time.
 
 ![triggerbutton.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8G&feoid=00N30000006n8wU&refid=0EM4Q000001YT2m)
+
+#### 7. Click "Done"

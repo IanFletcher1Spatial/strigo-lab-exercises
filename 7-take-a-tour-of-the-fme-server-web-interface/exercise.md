@@ -49,3 +49,5 @@ Next to that is the User Settings button.
 Lastly, at the very bottom left, you can find information about the build and version of your FME Server.
 
 ![](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000smiR&feoid=00N30000006n8wU&refid=0EM4Q000002WCbw)
+
+#### 4. Click "Next"

@@ -34,3 +34,5 @@ After removing _predicate, you'll notice that the Input Attribute is still there
 
 While we're here, let's also rename the LOCALITY attribute to CITY. Click on the LOCALITY box under Output Attribute, and then type CITY. You'll notice that the Action has changed to Rename. Click OK to close the AttributeManager.\
 ![RenameCity.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7X&feoid=00N30000006n8wU&refid=0EM4Q0000028b4A)
+
+#### 5. Click "Next"

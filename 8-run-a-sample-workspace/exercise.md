@@ -29,3 +29,5 @@ FME will narrow the workspaces down to only those in the repository that you sel
 When the job is ready, the button will turn green; click on the run button. After the workspace is executed by FME, the result, a kmz file in this case, will be downloaded through the browser. Feel free to view the downloaded data by opening it in [Google Earth](https://www.google.com/earth/versions/#download-pro) or [FME Data Inspector](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_DataInspector/DataInspector/Selecting_Format.htm).
 
 ![](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000smiR&feoid=00N30000006n8wU&refid=0EM4Q000002WCcQ)
+
+#### 5. Click "Next"

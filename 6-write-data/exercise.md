@@ -38,3 +38,5 @@ Or to view the data in its native application, click on the Open Containing Fold
 #### 4\. Save the Workspace
 Before closing FME Workbench or starting a new workspace, be sure to save the workspace by clicking the floppy disk icon or File > Save.\
 ![SaveButton.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7r&feoid=00N30000006n8wU&refid=0EM4Q0000028bak)
+
+#### 5. Click "Next"

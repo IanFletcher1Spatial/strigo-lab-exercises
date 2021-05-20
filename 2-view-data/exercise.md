@@ -48,3 +48,5 @@ Looking at the Table View for water_service_area you can see that there is an ar
 When you click on the magnifying glass to view data in Visual Preview, only one dataset loads at a time. If you want to view all the data together, click and drag a box around all objects you wish to view.
 
 In the next exercise, after we filter the data based on the RED status, we will only select the points that fall within the selected water_service_area.
+
+#### 7. Click "Next"

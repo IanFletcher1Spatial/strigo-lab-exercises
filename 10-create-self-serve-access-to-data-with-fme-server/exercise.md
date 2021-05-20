@@ -143,3 +143,5 @@ Once you have selected the parameters, click Run.
 #### 11\. View the Results
 
 The Data Download service presents a URL link to the translation results in a zip file. A quick inspection of the contents of the zip file confirms the results are what we expected.
+
+#### 12. Click "Next"

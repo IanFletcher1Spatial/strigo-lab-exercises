@@ -97,3 +97,5 @@ After the workspace has been run, there should be a successful translation with 
 ![resultspage.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000slOG&feoid=00N30000006n8wU&refid=0EM4Q000001YT25)
 
 Click on the URL to download the zip file. Open up the zip file to confirm there are a number of Esri Shapefiles that result from the translation.
+
+#### 7. Click "Next"

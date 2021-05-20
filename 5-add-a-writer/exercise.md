@@ -45,3 +45,5 @@ Set the Sheet Name to Addresses and click OK. There are other parameters that co
 #### 4\. Connect the Writer Feature Type
 Once the Addresses writer feature type has been added to the canvas, it needs to be connected to the workflow. Click on the output port of the AttributeManager transformer drag to connect to the writer feature type input port.\
 ![ConnectedWriter.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7m&feoid=00N30000006n8wU&refid=0EM4Q0000028bXl)
+
+#### 5. Click "Next"
