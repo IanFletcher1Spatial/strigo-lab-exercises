@@ -52,3 +52,5 @@ Optionally, you can drag and drop the file from your file browser; just be sure 
 #### 7\. Save Your Workspace
 Click the save button and then leave your workspace open.\
 ![SaveButton.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028b0D)
+
+#### 8. Click "Next"
