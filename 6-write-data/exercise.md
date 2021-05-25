@@ -4,7 +4,7 @@ The final step in creating any workspace in FME is to run the workspace. Running
 
 The final step before we can hand off the affected customers list is to run the workspace to create the actual file.
 
-Continue working in the workspace from the previous exercise or open the C:/FMEData2021/Resources/GettingStarted/Workspaces/GettingStarted-WriteData-Begin.fmwt workspace.
+Continue working in the workspace from the previous exercise or open the C:\FMEData2021\Resources\GettingStarted\Workspaces\GettingStarted-WriteData-Begin.fmwt workspace.
 
 #### 1\.  Run the Workspace
 To run a workspace, click on the Run button. Before clicking, if you mouse over the button, a green highlight will appear around all of the objects on the canvas that will be executed when the Run button is clicked. Which objects will be run is useful to know if you are testing a workspace and have made changes recently.\

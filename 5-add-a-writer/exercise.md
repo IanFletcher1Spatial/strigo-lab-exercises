@@ -2,7 +2,7 @@
 
 Now that we have filtered out which customers are within the affected water_service_area, as well as cleaned up the attributes, we are now ready to write the data out to a Microsoft Excel spreadsheet.
 
-Continue working in the workspace from the previous exercise or open the C:/FMEData2021/Resources/GettingStarted/Workspaces/GettingStarted-AddAWriter-Begin.fmwt workspace.\
+Continue working in the workspace from the previous exercise or open the C:\FMEData2021\Resources\GettingStarted\Workspaces\GettingStarted-AddAWriter-Begin.fmwt workspace.\
 ![StartingWorkspace.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7m&feoid=00N30000006n8wU&refid=0EM4Q0000028bX7)
 
 #### 1\. Add a Writer

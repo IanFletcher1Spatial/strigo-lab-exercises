@@ -24,7 +24,7 @@ In the Publish to FME Server dialog, we will need to set up a new connection. Cl
 
 An FME Server Connection dialog will appear, here we will need to set the parameters to our FME Server. Set the Connection Name to something memorable, we used Training FME Server.
 
-Next, set up the Server URL, since we are connecting to an FME Server that is on the same machine as FME Workbench, we can use http://localhost. If you are connecting to a remote FME Server, you will need to enter the full URL. Finally, set the username and password that you used in the previous exercise to log in. Once everything is set up, click Authenticate.
+Next, set up the Server URL, since we are connecting to an FME Server that is on the same machine as FME Workbench, we can use http://localhost. If you are connecting to a remote FME Server, you will need to enter the full URL. Finally, set the username to `admin` and password to `FMElearnings`. Once everything is set up, click Authenticate.
 
 ![connectionparams.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000slOG&feoid=00N30000006n8wU&refid=0EM4Q000001YT1u)
 

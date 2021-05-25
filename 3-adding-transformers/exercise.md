@@ -2,7 +2,7 @@
 
 When we viewed the data in Visual Preview, we noted that we can select only the water_service_area that has the Status of RED. To select this water_service_area, we will use the Tester transformer.
 
-Continue working in the workspace from the previous exercise or open the C:/FMEData2021/Resources/GettingStarted/Workspaces/GettingStarted-AddingTransformers-Begin.fmwt workspace.
+Continue working in the workspace from the previous exercise or open the C:\FMEData2021\Resources\GettingStarted\Workspaces\GettingStarted-AddingTransformers-Begin.fmwt workspace.
 
 #### 1\. Add a Transformer
 When modifying data in FME, you will need to use a transformer. To add a transformer, click anywhere on the canvas and start typing the transformer name you wish to add. When you start typing, the Quick Add dialog will appear; from this dialog transformers, readers, and writers can be added by just typing their name.\

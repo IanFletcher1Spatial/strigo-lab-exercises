@@ -9,7 +9,7 @@ After FME Workbench opens, click on the New button to create a new workspace. Th
 ![WorkbenchOverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azF)
 
 #### 3\. Drag and Drop to Add Data
-In your operating system's file manager, browse to the C:/FMEData2021/Resources/GettingStarted/Data folder. In the Data folder, click on the LocalAddresses.csv and drag it into FME Workbench.\
+In your operating system's file manager, browse to the C:\FMEData2021\Resources\GettingStarted\Data folder. In the Data folder, click on the LocalAddresses.csv and drag it into FME Workbench.\
 ![AddCSV.gif](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azK)
 
 #### 4\. Introduction to the Add Reader Dialog
@@ -45,7 +45,7 @@ For this example, CSV is the feature type name. If you want the reader feature t
 ![FeatureType.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azZ)
 
 #### 6\. Add Another Reader
-We need to add one more reader to the canvas before we can get started. To add a second reader, click on the Reader button on the top menu bar. Enter Esri Shapefile as the Format, and then browse to the dataset using the ellipsis button. Find the water_service_area.shp file in the C:/FMEData2021/Resources/GettingStarted/Data folder. Clear the Coord. System parameter and then click OK. (The Coord. System will still have a value from when we added the CSV file).\
+We need to add one more reader to the canvas before we can get started. To add a second reader, click on the Reader button on the top menu bar. Enter Esri Shapefile as the Format, and then browse to the dataset using the ellipsis button. Find the water_service_area.shp file in the C:\FMEData2021\Resources\GettingStarted\Data folder. Clear the Coord. System parameter and then click OK. (The Coord. System will still have a value from when we added the CSV file).\
 Optionally, you can drag and drop the file from your file browser; just be sure to drag the water_service_area.shp file and not one of the required Shapefile sidecar files.\
 ![EsriReader.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028aze)
 

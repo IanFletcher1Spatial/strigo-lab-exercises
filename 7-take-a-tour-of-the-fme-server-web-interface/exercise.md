@@ -5,18 +5,12 @@
 You can open the FME Server Web User Interface in a couple of different ways:
 
 -   Type in http://localhost as a URL in a browser window
-
--   Type in your hostname/fmeserver as the URL in a browser window (the hostname was specified during the installation). For this example the username is `admin` and the password is `FMElearnings`
-
--   Access it from the Windows Start menu. Find FME Server in the Programs list and click on Web User Interface
+-   Or, type in http://FMETraining as a URL in a browser window
+-   Or, access it from the Windows Start menu. Find FME Server in the Programs list and click on Web User Interface
 
 #### 2\. Log In
 
-If you have just installed FME Server and you haven't logged in yet, you will need to log in with the default username/password, which is admin/admin. Once you've logged in, FME Server will prompt you to change the admin password to something else. Complete this now before continuing. Since this is a fresh install, you will also have to license FME Server before continuing, please see FME Server Licensing Walk-Through for instructions.
-
-![](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000smiR&feoid=00N30000006n8wU&refid=0EM4Q000002WCb8)
-
-If you are on an existing FME Server, you will need to reach out to your FME Server Administrator to obtain your username and password.
+The username is `admin` and the password is `FMElearnings`
 
 #### 3\. Tour the Dashboard
 

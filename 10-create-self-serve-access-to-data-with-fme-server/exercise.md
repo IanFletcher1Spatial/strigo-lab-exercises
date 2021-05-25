@@ -2,7 +2,7 @@
 
 #### 1\. Open FME Workbench
 
-Open the workspace from the previous exercise in FME Workbench. Alternatively, open the template C:/FMEData2021/Resources/GettingStarted/Workspaces/CommunityMapping.fmwt in FME Workbench.
+Open the workspace from the previous exercise in FME Workbench. Alternatively, open the template C:\FMEData2021\Resources\GettingStarted\Workspaces\CommunityMapping.fmwt in FME Workbench.
 
 On the Generic Writer, the default writer format is set to Esri Shapefile. But, the goal is for the user to select the format of their choice, from a small list, at run time. This is accomplished with published parameters.
 
@@ -21,8 +21,6 @@ Double-click the Output Format parameter, this shows that it's been set up so th
 But that's not what we want. The goal is to present the user with a list of 4 common formats. So, we will create a new user parameter and define it accordingly.
 
 #### 3\. Create New User Parameter
-
-FME Desktop 2021.0 or newer:\
 In the Navigator window, right-click on User Parameters and select Manage User Parameters.\
 ![OpenParam.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8a&feoid=00N30000006n8wU&refid=0EM4Q0000028cqe)
 
@@ -47,34 +45,7 @@ Then for Choices enter the following:
 Then select Esri Shapefile as the default value and click OK.\
 ![OutputFormat.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8a&feoid=00N30000006n8wU&refid=0EM4Q0000028crD)
 
-In FME Desktop 2020.2 or older:\
-In the Navigator window, right-click on User Parameters and select Create User Parameter.
 
-![createnewparam.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8a&feoid=00N30000006n8wU&refid=0EM4Q000001YT2H)
-
-In the Add/Edit User Parameter dialog, enter the following parameters:
-
-Type: Choice with Alias
-
-Name: Output_Format
-
-Prompt: Enter an output format:
-
-Published: Checked
-
-Optional: Checked
-
-Next, click the ellipsis button for Configuration and we are going to import the formats we want the user to use.
-
-![firstparams.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8a&feoid=00N30000006n8wU&refid=0EM4Q000001YT2I)
-
-In the Edit Choice with Display Name dialog, click on Import, then Writer Formats. From here we will import the writer formats we want to use.
-
-![importwriters.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8a&feoid=00N30000006n8wU&refid=0EM4Q000001YT2J)
-
-Search and select Esri Shapefile, GML, Bentley Microstation Design V8, and MapInfo TAB (MITAB). Click OK, and OK again.
-
-![selectformats.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8a&feoid=00N30000006n8wU&refid=0EM4Q000001YT2K)
 
 Back in the Add/Edit Parameter dialog, select Esri Shapefile for the default value. The completed parameter should look like this:
 
