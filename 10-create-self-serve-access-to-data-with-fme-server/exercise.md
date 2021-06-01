@@ -37,10 +37,11 @@ Choice Configuration: Drop-down
 
 Then for Choices enter the following:
 
-| Value | Display |
+| Value     | Display        |
+|-----------|----------------|
 | SHAPEFILE | Esri Shapefile |
-| MITAB | MapInfo TAB |
-| GML | GML |
+| MITAB     | MapInfo TAB    |
+| GML       | GML            |
 
 Then select Esri Shapefile as the default value and click OK.\
 ![OutputFormat.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK8a&feoid=00N30000006n8wU&refid=0EM4Q0000028crD)
