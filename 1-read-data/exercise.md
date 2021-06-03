@@ -26,12 +26,9 @@ Each format has specific parameters that can be set. To check the parameters, cl
 
 If you are using FME 2020 or newer, there are no parameters to set with this dataset, as FME automatically takes the Latitude and Longitude values in the dataset, and assigns them to the x and y coordinate data type. With this change to the data type, we will see points when we view the data in the [next article](https://community.safe.com/s/article/getting-started-with-fme-desktop-view-data).  If you have time, explore the parameters.
 
-If you are using FME 2019 or older, open the format parameters dialog and switch the Attribute Definition to Manual. Then change the LONGITUDE and LATITUDE Type to x_coord, and y_coord, respectively.\
-![2019ReaderParams.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azU)
-
 *c. Coordinate System*\
 FME is coordinate system aware, if FME can detect the dataset's coordinate system, the Coord. System section will say "Read from Source." If it cannot, it will say "Unknown." If you know the coordinate system, yet FME doesn't detect it, you can enter it into the Coord. System box.\
-If you opened the parameters, click OK to return to the Add Reader dialog. Set the Coord. System to LL84 by typing it into the box. For more information about Coordinate Systems, see the [documentation](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Coordinate_Systems/CoordSys/coord_sys_about.htm) or the [Coordinate Systems 101: The Basics](https://www.safe.com/blog/2020/11/coordinate-systems-101-basics/) blog post.\
+If you opened the parameters, click OK to return to the Add Reader dialog. Set the Coord. System to LL-WGS84 by typing it into the box. For more information about Coordinate Systems, see the [documentation](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Coordinate_Systems/CoordSys/coord_sys_about.htm) or the [Coordinate Systems 101: The Basics](https://www.safe.com/blog/2020/11/coordinate-systems-101-basics/) blog post.\
 ![CoordSys.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azt)
 
 *d. Workflow Options*\
