@@ -29,7 +29,7 @@ If you are using FME 2020 or newer, there are no parameters to set with this dat
 *c. Coordinate System*\
 FME is coordinate system aware, if FME can detect the dataset's coordinate system, the Coord. System section will say "Read from Source." If it cannot, it will say "Unknown." If you know the coordinate system, yet FME doesn't detect it, you can enter it into the Coord. System box.\
 If you opened the parameters, click OK to return to the Add Reader dialog. Set the Coord. System to LL-WGS84 by typing it into the box. For more information about Coordinate Systems, see the [documentation](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Coordinate_Systems/CoordSys/coord_sys_about.htm) or the [Coordinate Systems 101: The Basics](https://www.safe.com/blog/2020/11/coordinate-systems-101-basics/) blog post.\
-![CoordSys.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azt)
+![image](https://user-images.githubusercontent.com/4148929/121102420-5dfe8700-c7b2-11eb-9b50-da9f49fa4fcc.png)
 
 *d. Workflow Options*\
 [Workflow Options](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_QuickTranslator/Workbench/readers_adding.htm) dictate how the reader feature types appear on the canvas; you can think of a feature type as FME's version of a layer in a CAD file or sheet in an Excel workbook. "Individual" will have each layer represented as its own feature type and "Single Merged" will have all of the layers represented as one feature type.\
