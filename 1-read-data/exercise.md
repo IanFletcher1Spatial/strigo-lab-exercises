@@ -14,7 +14,7 @@ In your operating system's file manager, browse to the C:\FMEData2021\Resources\
 
 #### 4\. Introduction to the Add Reader Dialog
 A reader is a way to "read" data into FME. Depending on the dataset you are planning on reading in, the parameters for the Add Reader dialog may change. Let's go over the Add Reader dialog and set our parameters for the LocalAddresses.csv file we just added.\
-![ReaderOverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azP)
+![image](https://user-images.githubusercontent.com/4148929/121102648-014f9c00-c7b3-11eb-916f-856eed78f263.png)
 
 *a. Format and Dataset*\
 When dragging and dropping data into FME, the Format, and Dataset auto-populates. Depending on the format you will want to confirm that the Format is correct, as there may be different format types for the same format extension. For our example, the format should be CSV (Comma Separated Value).\
