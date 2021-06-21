@@ -3,7 +3,7 @@
 #### 1. Follow Frank's Steps
 Open C:\FMEData2021\Workspaces\IntegrateDataWithTheFMEPlatform\create-self-serve.fmw
 
-Make sure you have followed along with [Frank's steps](https://safe.my.trailhead.com/content/safe/modules/automate-workflows/create-a-self-serve-workspace-for-the-web.
+Make sure you have followed along with [Frank's steps](https://safe.my.trailhead.com/content/safe/modules/automate-workflows/create-a-self-serve-workspace-for-the-web).
 
 #### 2. Create a New Published parameter
 Create a new published parameter that lets the user pick which feature types to read and write.
