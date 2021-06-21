@@ -17,6 +17,7 @@ If you do not already have an FME Academy account, click on Sign Up\
 
 You will then be taken to the Safe Account page to finalize your account settings\
 ![Safe Account](safe-account.png)
+
 Enter your desired username and confirm your password, then click *Continue* to be taken to the [Integrate Data with the FME Platform](https://safe.my.trailhead.com/en/content/safe/trails/integrate-data-with-the-fme-platform) trail.
 
 #### 4. Click "Next"
