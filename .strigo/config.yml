@@ -64,3 +64,6 @@ classes:
         title: "Automate Workflows on Schedule"
       - file: "../create-a-self-serve-web-app/exercise.md"
         title: "Create a Self-Serve Web App"
+
+      - file: "../course-wrap-up/exercise.md"
+        title: "Course Wrap-up"        
