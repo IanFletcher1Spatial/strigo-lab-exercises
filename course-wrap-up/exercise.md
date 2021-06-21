@@ -9,4 +9,4 @@ Once you have completed the form, you will be directed to the quiz to obtain the
 
 If you need to re-take the quiz, please click [here](https://tinyurl.com/iydwtfmep). You will require 80% to pass the quiz.
 
-#### Click "Done"
+#### 3. Click "Done"
