@@ -6,7 +6,7 @@ Continue with the previous exercise's workspace or open C:\FMEData2021\Workspace
 **If** you need to re-create the database connection, use the following parameters:
 
 | Parameter | Setting |
-| --- | --- |
+| ------------------ | --- |
 Name | FME Training PostGIS Database
 Host | postgis.train.safe.com
 Port | 5432
