@@ -10,7 +10,7 @@ Use **Pan** and **Zoom** to find the northernmost public art installation. U
 
 Use the *Table View* or *Feature Information* to take note of the title of the installation.
 
-![Finding the northernmost art installation.](https://lh6.googleusercontent.com/SSRQWpi_O_vqb4NpzDLslh5XHyxGW_A9juwX9vLWT3lWtXbTvsqKT7i30ySINAAtf-31of4Cw05iUKzSlotbUqkLheBgpySUWXkOQppZwJbLrB6rG8LoPsl_nxCrGWxAt2FQeB3l)
+![Finding the northernmost art installation.](northernmost-feature.png)
 
 *Map tiles by [Stamen Design](https://stamen.com/), under [CC BY 3.0](http://creativecommons.org/licenses/by/3.0). Data by [OpenStreetMap](http://openstreetmap.org/), under [CC BY SA](http://creativecommons.org/licenses/by-sa/3.0).*
 

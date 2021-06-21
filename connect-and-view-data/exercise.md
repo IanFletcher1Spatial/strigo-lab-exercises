@@ -14,7 +14,7 @@ The workbook contains one sheet per neighborhood. Each row is a public art insta
 
 Your canvas should now look like the image below:
 
-![](https://trailhead-cs-production-private-images.s3.amazonaws.com/00D30000000ePES/safe/modules/connect-to-data/connect-and-view-data/images/1df22908c3187016b04ede24b57cf3e8_1623184940336.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQCWQ2ZQ4PMOG4SPY%2F20210621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210621T230856Z&X-Amz-Expires=43260&X-Amz-SignedHeaders=host&X-Amz-Signature=559eb100a191b409ee2bf6b94c629f24b1e1ca3a321e08d20ba67b11e2e93662)
+![](./canvas.png)
 
 #### 3. Challenge
 Complete the [Connect and View Data Challenge quiz](https://safe.my.trailhead.com/content/safe/modules/connect-to-data/connect-and-view-data#challenge).
