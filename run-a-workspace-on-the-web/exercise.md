@@ -3,14 +3,15 @@
 #### 1. Follow Frank's Steps
 Open C:\FMEData2021\Workspaces\IntegrateDataWithTheFMEPlatform\publish-your-self-serve-workspace.fmw
 
-If you need to create an **FME Server Connection** during the exercise, use the following parameters:
+If you need to create an **FME Server Connection** during the exercise, use the following parameters:  
+
 | Parameter | Setting |
 | -- | -- |
-Web Service | FME Server
-Connection Name | Training FME Server
-Server URL | http://localhost
-User Name | admin
-Password | FMElearnings
+*Web Service* | FME Server
+*Connection Name* | Training FME Server
+*Server URL* | http://localhost
+*User Name*| admin
+*Password* | FMElearnings
 
 Make sure you have followed along with [Frank's steps](https://safe.my.trailhead.com/content/safe/modules/automate-workflows/run-a-workspace-on-the-web.
 
