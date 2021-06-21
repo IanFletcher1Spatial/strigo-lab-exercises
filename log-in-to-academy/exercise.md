@@ -5,7 +5,7 @@ Click [here](https://safe.my.trailhead.com/en/content/safe/trails/integrate-data
 If you have already logged in to your FME Academy account, you will be taken directly to the trail. If not, you will have to log in or sign up first.
 
 #### 2. Log In
-If you have not already logged in to your FME Academy account, you will see this:\
+If you have not already logged in to your FME Academy account, you will see this:
 
 ![Log In](log-in.png)
 
