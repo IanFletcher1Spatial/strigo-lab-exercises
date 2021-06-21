@@ -7,13 +7,13 @@ You will have to create an **FME Server Connection** during the exercise. Use th
 
 | Parameter | Setting |
 | -- | -- |
-Web Service | FME Server
-Connection Name | Training FME Server
-Server URL | http://localhost
-User Name | admin
-Password | FMElearnings
+*Web Service* | FME Server
+*Connection Name* | Training FME Server
+*Server URL* | http://localhost
+*User Name* | admin
+*Password* | FMElearnings
 
-Make sure you have followed along with [Frank's steps](https://safe.my.trailhead.com/content/safe/modules/automate-workflows/create-a-self-serve-workspace-for-the-web.
+Make sure you have followed along with [Frank's steps](https://safe.my.trailhead.com/content/safe/modules/automate-workflows/create-a-self-serve-workspace-for-the-web).
 
 #### 2. Create a New Published parameter
 Create a new published parameter that lets the user pick which feature types to read and write.
