@@ -3,7 +3,8 @@
 #### 1. Follow Frank's Steps
 Open C:\FMEData2021\Workspaces\IntegrateDataWithTheFMEPlatform\publish-your-self-serve-workspace.fmw
 
-You will have to create an **FME Server Connection** during the exercise. Use the following parameters:
+You will have to create an **FME Server Connection** during the exercise. Use the following parameters:  
+
 | Parameter | Setting |
 | -- | -- |
 Web Service | FME Server
