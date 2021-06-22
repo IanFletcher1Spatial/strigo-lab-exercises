@@ -9,4 +9,12 @@ Click on the Workbench icon in the Taskbar ![](https://content.screencast.com/us
 or go to Start|FME Desktop|FME Workbench.  
 ![](https://content.screencast.com/users/Ryan.Cragg/folders/Snagit/media/4950a7c7-8c8a-4338-8ba7-89ccc1a42aaa/2021-06-21_16-02-08.png)
 
-#### 2. Click "Next"
+#### 2. Play with the Zoom
+Click on the lab icon  
+![lab icon](lab.png)  
+Then use the following keyboard shortcuts to zoom in and out.
+- Windows: Press Ctrl and - or +
+- Mac: Press ⌘ and - or +
+- Chrome OS: Press Ctrl and - or +
+
+#### 3. Click "Next"
