@@ -2,35 +2,24 @@
 ---
 classes:
   - exercises:
-      # `file` is relative to .strigo directory
-      - file: "../hello-world/hello.md"
-        title: "Hello!"
-      - file: "../hello-world/world.md"
-        title: "World!"
-
-# Class exercises - configuration for multiple classes
-# ---
-# classes:
-#   # `class_id` may be omitted if there is only one class in this file
-#   - class_id: "<your_class_id>"
-#     exercises:
-#       # `file` is relative to .strigo directory
-#       - file: "../hello-world/hello.md"
-#         title: "Hello!"
-#       - file: "../hello-world/world.md"
-#         title: "World!"
-#   - class_id: "<your_class_id>"
-#     exercises:
-#       - file: "../markup-syntaxes/markdown.md"
-#         title: "Markdown!"
-#         # `syntax` is optional
-#         # can be "md" | "rst"
-#         # uses file extension as fallback
-#         syntax: "md"
-#       - file: "../markup-syntaxes/restructured.rst"
-#         title: "Restructed"
-#         syntax: "rst"
-#   - class_id: "<your_class_id>"
-#     exercises:
-#       - file: "../relative-images/md-with-relative-imgs.md"
-#         title: "Relative images"
+      # `file` is relative to .strigo directory. Don't include number in title--that happens automatically.
+      #In Atom, create the file and title here. Then edit the MD file.
+      #Use https://euangoddard.github.io/clipboard2markdown/  to create the clipboard2markdown
+      #Add <head><base target="_blank"> </head> to the top of the MD file.
+      - file: "../read-data/exercise.md"
+        title: "Read Data"
+      - file: "../view-data/exercise.md"
+        title: "View Data"
+      - file: "../write-data/exercise.md"
+        title: "Write Data"
+      - file: "../multiple-streams/exercise.md"
+        title: "Multiple Streams"
+      - file: "../document-a-workspace/exercise.md"
+        title: "Document A Workspace"
+      - file: "../transform-data/exercise.md"
+        title: "Transform Data"
+      - file: "../attribute-join/exercise.md"
+        title: "Publish a Workspace"
+      - file: "../publish-a-workspace/exercise.md"
+        title: "Automate a Workspace"
+      - file: "../automate-a-workspace/exercise.md"
