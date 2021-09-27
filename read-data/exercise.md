@@ -1,6 +1,6 @@
 1. Open Workspace
 
-Open the workspace by double-clicking the file located at C:\\FMEData2021\\FILL IN.
+Open the workspace by double-clicking the file located at C:\\FMEData2021\\Resources\\FMEAccelerator\\FoodVendors-Start.fmw.
 
 2. Examine Workspace
 
@@ -15,7 +15,7 @@ Configure the Add Reader dialog as follows:
 | Parameter                         | Value                                                                                                                                     |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Format                            | CSV (Comma Separated Value)                                                                                                               |
-| Dataset                           | ENTER PATH HERE                                                                                                                           |
+| Dataset                           | C:\\FMEData2021\\Resources\\FMEAccelerator\\data\\food-vendors.csv                                                                             |
 | Coord. System                     | LL84                                                                                                                                      |
 | Parameters > Delimiter Character  | ,                                                                                                                                         |
 | Parameters > Attributes > x and y | Type should be x_coordinate and y_coordinate, respectively. If they are not, change Attribute Definition to Manual and set them manually. |
