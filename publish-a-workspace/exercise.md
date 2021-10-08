@@ -2,6 +2,12 @@
 
 Before publishing the workspace to FME Server so we can run it on the web, we can give the end-user additional control over how the workspace runs using a user parameter. Let's allow the end-user to choose the size of the buffer around construction projects. To accomplish this, double-click the Bufferer to view its parameters. Find the General > Buffer Distance parameter near top. Click the drop-down arrow, then User Parameters > Create User Parameter, then click OK. Now the user will be prompted to enter a value for this parameter each time the workspace runs.
 
+You can turn any parameter in your workspace into a user parameter, making your workspaces more flexible.
+
+2. Test Published Parameter
+
+To see this new user parameter in action, click the drop-down arrow next to the Run button to access the Run menu. Click Rerun Entire Workspace. You should see a Translation Parameter Values dialog pop up. Here, the person running the workspace can choose how much of a buffer distance to use. You can test running it with a different buffer distance, or click Cancel.
+
 2. Publish the Workspace
 
 To publish your workspace to FME Server, click File > Publish to FME Server.
