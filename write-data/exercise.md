@@ -1,6 +1,6 @@
 1. Examine the Excel Writer
 
-The "Create a Report in Excel" bookmark contains a writer feature type called AffectedVendors. Let's figure out where it will write data. Click it once to select it. When you select it, its writer in the Navigator window will also be highlighted in gray: AffectedVendors [XLSXW]. Click the right-pointing arrow next to the writer in the Navigator to expand its parameters. The Destination Microsoft Excel File parameter tells us this writer will create data at C:\\FMEData2021\\Output\\Training\\AffectedVendors.xlsx.
+The "Create a Report in Excel" bookmark (on the bottom-right of the Canvas) contains a writer feature type called AffectedVendors. Let's figure out where it will write data. Click it once to select it. When you select it, its writer in the Navigator window will also be highlighted in gray: AffectedVendors [XLSXW]. Click the right-pointing arrow next to the writer in the Navigator to expand its parameters. The Destination Microsoft Excel File parameter tells us this writer will create data at C:\\FMEData2021\\Output\\Training\\AffectedVendors.xlsx.
 
 2. Connect Reader and Writer Feature Types
 
@@ -13,6 +13,8 @@ Because the writer feature type was created using Automatic Sheet Definition mod
 Click the Run button to run the workspace and convert your CSV to Excel. If the Translation Parameter Values dialog appears, just click Run.
 
 4. View the Written Data
+
+After "Translation was SUCCESSFUL" appears as the last line in your Translation Log, the workspace has finished running.
 
 To confirm the Excel file was written, click the writer feature type once to select it. Then click the Open Containing folder icon that appears on the small toolbar above the feature type. This button lets you open the folder where data was written in Windows Explorer. You should see a new AffectedVendors.xlsx file. To inspect the written data, you can open it with Microsoft Excel.
 

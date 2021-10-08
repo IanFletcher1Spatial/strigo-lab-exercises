@@ -10,9 +10,9 @@ Note the numbers next to each feature type. These are feature counts and represe
 
 2. Inspect the Construction Projects and Food Vendors
 
-Ctrl-click (or Cmd on a Mac) the caches on "road-ahead-upcoming-projects" and "CSV". You will see the location of the construction projects and food vendors appear on a map in the Visual Preview window.
+Ctrl-click (or Cmd on a Mac) the caches on "road-ahead-upcoming-projects" and the reader feature type we just looked at in the Navigator, the food vendors "CSV." You will see the location of the construction projects and food vendors appear on a map in the Visual Preview window.
 
-You can zoom in to see their general locations using your mouse wheel or the Zoom In tool in the Visual Preview Toolbar.
+You can zoom in to see their general locations using your mouse wheel or the Zoom In tool in the Visual Preview > Graphics Toolbar (above the map).
 
 Click a feature to view its attributes in Table View. Change feature types in Table View by clicking the drop-down under Table.
 

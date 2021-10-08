@@ -6,7 +6,9 @@ Double-click the Bufferer to see how it is configured. It will create an area of
 
 Run the workspace and inspect the Bufferer's Buffered port. If you zoom in, you will see the lines have been buffered into polygons.
 
-Next, we need to find which food vendor points intersect (or overlay) the affected construction zones. We can use the SpatialFilter transformer for this job. Drag it into the "Find Impacts" bookmark and connect the Bufferer's Buffered port to the SpatialFilter Filter port. Then connect the AttributeValidator's Passed port to the SpatialFilter's Candidate port. Delete the existing connection line going to the writer feature type. This step tells the transformer that the construction zones are the areas to filter on, and the vendor locations are the candidates to filter. If you double-click the SpatialFilter, you will see it is setup to find intersecting features.
+Next, we need to find which food vendor points intersect (or overlay) the affected construction zones. We can use the SpatialFilter transformer for this job. Drag it into the "Find Impacts" bookmark and connect the Bufferer's Buffered port to the SpatialFilter Filter port. Then connect the AttributeValidator's Passed port to the SpatialFilter's Candidate port. Delete the existing connection line going to the writer feature type by right-clicking it and selecting Delete. This step tells the transformer that the construction zones are the areas to filter on, and the vendor locations are the candidates to filter. If you double-click the SpatialFilter, you will see it is configured to find intersecting features. Click Cancel.
+
+Run the workspace. The feature counts for the SpatialFilter show that six food vendors will be affected by the road construction.
 
 2. Perform an Attribute-Based Filter
 
@@ -14,7 +16,7 @@ The next step we want to accomplish is to enrich our spatial data with tabular d
 
 We can do this using the Tester transformer, which lets us conduct simple pass/fail logical tests on features to filter them. Drag the Tester transformer to the "Get Current License Data" bookmark. Connect the Business Licenses CSV feature type to the Tester input port.
 
-Double-click the Tester to view its parameters. It is configured to filter out features that have a value of 21 for their `FOLDERYEAR` attribute. This attribute means they are valid for the year 2021. Click OK.
+Double-click the Tester to view its parameters. It is configured to filter out features that have a value of 21 for their `FOLDERYEAR` attribute. This attribute means they are valid for the year 2021. Click Cancel.
 
 Run the workspace. The feature counts for the Tester show that 62,496 licenses are valid for 2021 (the Passed port). We will use these features and leave the remaining features in the Failed port, filtering them out of our data.
 

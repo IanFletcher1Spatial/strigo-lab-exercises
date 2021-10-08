@@ -1,6 +1,6 @@
 1. Open Workspace
 
-Open the workspace by double-clicking the file located at C:\\FMEData2021\\Resources\\FMEAccelerator\\FoodVendors-Start.fmw.
+Open the workspace by double-clicking the file located at C:\\FMEData2021\\Resources\\FMEAccelerator\\FoodVendors-Start.fmw, if it is not already open.
 
 2. Examine Workspace
 
@@ -10,7 +10,7 @@ Note the bookmarks (containers) and annotation (comments) containing comments ab
 
 3. Examine a CSV Reader
 
-One of the CSV reader feature types is not labelled. Let's figure out what data it is reading. Click it once to select it. It will be highlighted in blue to show it is selected. When you select it, its reader in the Navigator window will also be highlighted in gray: food-vendors [CSV2]. Click the right-pointing arrow next to the reader in the Navigator to expand its parameters. The Source CSV (Comma Separated Value) File(s) parameter tells us this CSV reader is using data located at C:\\FMEData2021\\Resources\\FMEAccelerator\\data\\food-vendors.csv. We'll add annotation to the feature type later so it's clearer what data we are using.
+One of the CSV reader feature types is not annotated with "Business Licenses." Let's figure out what data it is reading. Click it once to select it. It will be highlighted in blue to show it is selected. When you select it, its reader in the Navigator window will also be highlighted in gray: food-vendors [CSV2]. Click the right-pointing arrow next to the reader in the Navigator to expand its parameters. The Source CSV (Comma Separated Value) File(s) parameter tells us this CSV reader is using data located at C:\\FMEData2021\\Resources\\FMEAccelerator\\data\\food-vendors.csv. We'll add annotation to the feature type later so it's clearer what data we are using.
 
 4. Save Your Workspace
 
