@@ -6,7 +6,7 @@ Open the workspace by double-clicking the file located at C:\\FMEData2021\\Resou
 
 Note three existing reader feature types (data sources) on the left: upcoming road construction projects and business licenses are labelled. A third unlabeled CSV reader feature type is on the canvas; we'll find out what that is soon.
 
-Note the bookmarks (containers) and annotation (comments) containing comments about what step will take place where. Note the Transformers bookmark at the top, which contains the "building blocks" we will use to build our workspace. They are already configured for the sake of speed.
+Note: the bookmarks (containers) and annotation (comments) containing comments about what step will take place where. Note the blue objects in the middle of the workspace. These are transformers we will use to build our workspace. They are already configured for the sake of speed, but they are not connected up yet. We will do that in later exercises.
 
 3. Examine a CSV Reader
 

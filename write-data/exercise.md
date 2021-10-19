@@ -6,6 +6,8 @@ The "Create a Report in Excel" bookmark (on the bottom-right of the Canvas) cont
 
 Click the right-pointing arrow (output port) on your food vendors CSV reader feature type and drag the connection line to the red right-pointing arrow on your Excel writer feature type. Let go to connect the objects.
 
+Note: because we already have transformers in our workspace, but they are not connected, the connection lines will get a bit confusing here, passing behind the AttributeValidator, for example. That's OK for now; we'll clean it up soon.
+
 Because the writer feature type was created using Automatic Sheet Definition mode, the writer feature type uses the schema of connected features. You should see the new attributes appear below the writer feature type.
 
 3. Run the Workspace
