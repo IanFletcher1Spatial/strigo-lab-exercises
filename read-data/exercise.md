@@ -16,6 +16,6 @@ Click it once to select it. It will be highlighted in blue to show it is selecte
 
 Click the right-pointing arrow next to the reader in the Navigator to expand its parameters. The Source CSV (Comma Separated Value) File(s) parameter tells us this CSV reader is using data located at C:\\FMEData2021\\Resources\\FMEAccelerator\\data\\food-vendors.csv. We'll add annotation to the feature type later so it's clearer what data we are using.
 
-4. Continue to Next Article
+4. Continue to Next Exercise
 
 Click the Next button below.

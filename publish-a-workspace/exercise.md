@@ -40,6 +40,6 @@ Enter 35 for Buffer Distance.
 
 Click Run. The workspace will run on FME Server and you will be presented with a Data Download URL. Click the link and extract it to view the Excel data.
 
-5. Continue to Next Article
+5. Continue to Next Exercise
 
 Click the Next button below.
