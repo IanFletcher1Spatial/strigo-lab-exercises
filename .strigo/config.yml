@@ -25,6 +25,6 @@ classes:
       - file: "../9-publish-a-workspace-to-fme-server-and-run-it/exercise.md"
         title: "Publish a Workspace to FME Server and Run It"
       - file: "../10-create-self-serve-access-to-data-with-fme-server/exercise.md"
-        title: "Create Self-Serve Access to Data with FME Server"
+        title: "Creating Parameters and Uploading Data for Self-Serve Access"
       - file: "../11-schedule-a-workspace-to-run-with-fme-server/exercise.md"
-        title: "Schedule a Workspace to Run with FME Server"
+        title: "Schedule a Workspace to Run with FME Server Automations"
