@@ -1,9 +1,9 @@
 <head><base target="_blank"> </head>
 
-#### 1\. Open FME Workbench\
+#### 1\. Open FME Workbench
 Open the workspace from the [previous article](https://community.safe.com/s/article/publish-a-workspace-to-fme-server-and-run-it) in FME Workbench. Alternatively, open the template attached to this article (AddressesToNotify.fmwt) in FME Workbench.
 
-#### 2\. Open the Parameter Manager\
+#### 2\. Open the Parameter Manager
 The following instructions are for FME Desktop 2021.0+ interface. For older versions of FME, see the [training manual](https://s3.amazonaws.com/gitbook/Desktop-Advanced-2019/DesktopAdvanced4Parameters/4.02.UserParameters.html) for the interface but follow this step for the input values.
 
 In the Navigator window, right-click on User Parameters and select Manage User Parameters.\
@@ -12,18 +12,18 @@ In the Navigator window, right-click on User Parameters and select Manage User P
 The Parameter Manager contains all of the user parameters set up in a workspace. This workspace only has the default parameters that are set up when a reader and writer are added. Since we want to provide the user an option to upload a new water_service_area file, we should clean these parameters up.  For more information on the Parameter Manager, see [this article](https://community.safe.com/s/article/Using-the-Parameter-Manager).\
 ![ParamManager.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Nk)
 
-#### 3\. Remove Parameter\
+#### 3\. Remove Parameter
 First, let's remove the Source CSV parameter. Click on the Source CSV parameter on the left-hand side and click on the trash icon at the top.\
 ![RemoveParams.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Nu)
 
 After removing the CSV parameter, let's modify the Source Esri Shapefile parameter so it is easier for the user to know which file to upload.
 
-#### 4\. Modify Source Parameter\
+#### 4\. Modify Source Parameter
 Select the Source Esri Shapefile parameter, then on the right-hand side, edit the Prompt to read:\
 Service Areas Input Shapefile Dataset\
 ![SourceParam.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294P2)
 
-#### 5\. Create New Parameter\
+#### 5\. Create New Parameter
 While we're in the Parameter Manager, let's create a parameter for the date of service. This will be set by the user when the workspace is run and will be attached to the customers to notify the output spreadsheet.\
 Click on the green plus sign in the top left, and then select DateTime.\
 ![CreateDateTime.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294PH)
@@ -41,16 +41,16 @@ Then on the right-hand side, enter the following parameter properties:
 
 Click OK to finish with the Parameter Manager.
 
-#### 6\. Modify Shapefile Reader\
+#### 6\. Modify Shapefile Reader
 Since we won't know if the filename of the updated file will be different, let's change our shapefile reader to accept all filenames with the same schema.\
 Double-click on the water_service_area reader feature type to open the parameters. In the parameters, enable Merge Feature Type and leave the other parameters set at the default, then click OK.\
 ![MergeFeature.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294PW)
 
-#### 7. Link Published Parameter to Service Date Attribute\
+#### 7. Link Published Parameter to Service Date Attribute
 Now that we have a SERVICE_DATE parameter, we need to create an attribute to utilize it in the workspace. Open the AttributeManager transformer, and add a new Output Attribute called SERVICE_DATE. Then for the AttributeValue, click on the box to expose the drop-down arrow then select User Parameter > SERVICE_DATE.\
 ![AttributeManager.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Pg)
 
-#### 8\. Run the Workspace\
+#### 8\. Run the Workspace
 If you run the workspace immediately, it will use the original input Shapefile. However, if you select Prompt for User Parameters from the drop-down next to Run then click Run, you will be prompted to choose the input file, as well as a service date.\
 ![RunPrompt.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Pq)
 
@@ -59,17 +59,17 @@ In the Translation Parameter Values dialog that appears when the workspace is ru
 Then set the Date of Water ServiceService Date to some time within the next week. Finally, before clicking Run, uncheck the Save As User Parameter Default Values. Ignore the Destination Microsoft Excel File, we can leave it as the default for now. We don't want these to be saved as the default because this is just a test run to ensure the workspace is working correctly.\
 ![Prompt.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Pv)
 
-#### 9\. Publish to FME Server\
+#### 9\. Publish to FME Server
 Now that we have the parameters set up and confirmed that the workspace runs correctly, we can publish it to FME Server.\
 Before publishing, save the workspace. Once saved, go to File > Publish to FME Server on the top menu bar.\
 Connect to the same connection as the previous tutorial. Select the Server Tutorial repository that we also created in the previous tutorial. We will keep the workspace name AddressesToNotify.fmw and just overwrite the previously uploaded workspace.
 
 Note: If you did not complete the [previous tutorial](https://community.safe.com/s/article/publish-a-workspace-to-fme-server-and-run-it), go back to the tutorial and follow the instructions in Step 3 to learn how to publish a workspace to FME Server.
 
-#### 10\. Open the FME Server Web Interface\
+#### 10\. Open the FME Server Web Interface
 Open and log into the FME Server Web User Interface. If this is your first time logging into FME Server, please see the instructions in [Tour the FME Server Interface and Run a Workspace](https://community.safe.com/s/article/Tour-the-FME-Server-Interface-and-Run-a-Workspace) tutorial to learn how to do this.
 
-#### 11\. Upload Updated File\
+#### 11\. Upload Updated File
 When we run the workspace in FME Server we have the option to upload the updated shapefile directly through our published parameter, the only issue with this method is that it gets uploaded to the Temporary files folder, which gets purged daily. We want to reference this in an Automation we will set up in the [next tutorial](https://community.safe.com/s/article/schedule-a-workspace-to-run-with-fme-server), so let's upload it to the permanent Data folder.\
 On the side menu bar, expand Files & Connections, then click on Resources.\
 ![Resources.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Q0)
@@ -80,7 +80,7 @@ On the side menu bar, expand Files & Connections, then click on Resources.\
 Open the new Server Training folder, and click on Upload > Files. Then select water_service_area_updated.zip, and click OK. Now, this file can be accessed anywhere in FME Server.\
 ![UploadedFile.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294QA)
 
-#### 12\. Run Workspace\
+#### 12\. Run Workspace
 On the side menu bar in FME Server, click on Run Workspace. On the Run Workspace page, select Server Tutorial for the Repository and the AddressesToNotify.fmw workspace. Select Data Download for the Service.\
 Check out the Published Parameters. The two parameters that were set up and just tested in FME Workbench are shown. Click on the Browse Resources button for the Service Area parameter.\
 ![image5.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Qe)
@@ -94,7 +94,7 @@ Finally, set the Date of water service to any date, then click Run.\
 
 Files stored within FME Server will have $(FME_SHAREDRESOURCE_<root folder>) in front of the path.
 
-#### 13\. View the Results\
+#### 13\. View the Results
 The Data Download service presents a URL link to the translation results in a zip file. A quick inspection of the contents of the zip file confirms the results are what we expected.\
 ![OutputRun.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294RN)
 
