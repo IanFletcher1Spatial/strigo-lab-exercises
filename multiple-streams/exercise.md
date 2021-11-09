@@ -1,10 +1,10 @@
-1. Find AttributeValidator
+**Step 1**
 
 Find the AttributeValidator in the "Validate Food Truck Data" bookmark to the right of the reader feature types. Note that it uses the food vendor data as its input.
 
 ![AttributeValidator](./images/attributevalidator.png)
 
-2. View AttributeValidator Parameters
+**Step 2**
 
 Double-click the AttributeValidator to view its parameters in a dialog.
 
@@ -12,12 +12,12 @@ Like the rest of the transformers in this workspace, it is already configured. T
 
 ![AttributeValidator](./images/parameters.png)
 
-3. Observe Streams in Data
+**Step 3**
 
 You should notice that the feature counts show how the data has been split into two streams by the AttributeValidator. 16 features come out of the Failed port (they did not meet the validation rules), while 75 come out of the Passed port and continue on to be written.
 
 ![Feature counts](./images/counts.png)
 
-4. Continue to Next Exercise
+**Step 4**
 
 Click the Next button below.

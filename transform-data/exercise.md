@@ -1,30 +1,44 @@
-1. Perform Spatial Analysis (Spatial Join)
+**Step 1**
 
 Find the Bufferer transformer in the "Determine Impacted Area" bookmark.
 
-Double-click the Bufferer to see how it is configured. It will create an area of 30 feet from the road center line (60 feet total width) around all upcoming road construction projects. We can use this area to identify food vendor locations that will be affected.
+IMAGE
+
+**Step 2**
+
+The Bufferer is configured to create features representing the areas within 30 feet of the road centerline, i.e., areas impacted by construction.
 
 Inspect the Bufferer's Buffered port feature cache. If you zoom in, you will see the lines have been buffered into polygons.
 
-Next, we need to find which food vendor points intersect (or overlay) the affected construction zones. We can use the SpatialFilter transformer for this job. Find the SpatialFilter transformer in the "Find Impacts" bookmark.
+IMAGE
 
-Note that the AttributeValidator's Passed port is connected to the SpatialFilter's Candidate port. This step tells the transformer that the construction zones are the areas to filter on, and the vendor locations are the candidates to filter.
+**Step 4**
 
-If you double-click the SpatialFilter, you will see it is configured to find intersecting features ("Filter OGC-Intersects Candidate"). Click Cancel.
+Find the SpatialFilter transformer in the "Find Impacts" bookmark.
+
+IMAGE
+
+**Step 5**
+
+The SpatialFilter is configured to find food vendors within the buffered areas.
 
 Observe the feature counts for the SpatialFilter's Passed port. Four food vendors will be affected by the road construction.
 
-2. Perform an Attribute-Based Filter
+IMAGE
 
-The next step we want to accomplish is to enrich our spatial data with tabular data from another source. In this case, we'll be looking for business licenses matching the food vendor data. The other CSV feature type has the business license data, containing 572,634 rows. We want to join this data with the results of the SpatialFilter. Before joining, we should make sure we are only using current business licenses.
+**Step 6**
 
-We can do this using the Tester transformer, which lets us conduct simple pass/fail logical tests on features to filter them. Note that the Business Licenses CSV feature type is connected to the Tester in the "Get Current License Data" bookmark.
+Find the Tester.
 
-Double-click the Tester to view its parameters. It is configured to filter out features that have a value of 21 for their `FOLDERYEAR` attribute. This attribute means they are valid for the year 2021. Click Cancel.
+images
+
+**Step 7**
+
+The Tester is configured to filter out business licenses that are not valid for the year 2021.
 
 Observe the Tester's feature counts. 62,496 licenses are valid for 2021 (the Passed port). We will use these features and leave the remaining features in the Failed port, filtering them out of our data.
 
-3. Perform an Attribute-Based Join
+**Step 8**
 
 Now that we have impacted food vendors and a list of current business licenses, we can join this data together to add business license data to the impacted vendors.
 
