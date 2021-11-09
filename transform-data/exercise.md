@@ -2,7 +2,7 @@
 
 Find the Bufferer transformer in the "Determine Impacted Area" bookmark.
 
-IMAGE
+![Bufferer](./images/bufferer.png)
 
 **Step 2**
 
@@ -10,66 +10,80 @@ The Bufferer is configured to create features representing the areas within 30 f
 
 Inspect the Bufferer's Buffered port feature cache. If you zoom in, you will see the lines have been buffered into polygons.
 
-IMAGE
+![Buffered streets](./images/bufferer-results.png)
 
-**Step 4**
+**Step 3**
 
 Find the SpatialFilter transformer in the "Find Impacts" bookmark.
 
-IMAGE
+![Buffered streets](./images/spatialfilter.png)
 
-**Step 5**
+**Step 4**
 
 The SpatialFilter is configured to find food vendors within the buffered areas.
 
 Observe the feature counts for the SpatialFilter's Passed port. Four food vendors will be affected by the road construction.
 
-IMAGE
+![Four matches](./images/spatialfilter-results.png)
+
+**Step 5**
+
+Find the Tester in the Get Current License Data bookmark.
+
+![Tester](./images/tester.png)
 
 **Step 6**
-
-Find the Tester.
-
-images
-
-**Step 7**
 
 The Tester is configured to filter out business licenses that are not valid for the year 2021.
 
 Observe the Tester's feature counts. 62,496 licenses are valid for 2021 (the Passed port). We will use these features and leave the remaining features in the Failed port, filtering them out of our data.
 
+![Tester](./images/tester-results.png)
+
+**Step 7**
+
+Find the FeatureJoiner in the "Join Data and Manage Attributes" bookmark.
+
+![FeatureJoiner](./images/featurejoiner.png)
+
 **Step 8**
 
-Now that we have impacted food vendors and a list of current business licenses, we can join this data together to add business license data to the impacted vendors.
+The FeatureJoiner is configured to join the business license data to the food vendor data.
 
-Find the FeatureJoiner in the "Join Data and Manage Attributes" bookmark. Note that the SpatialFilter's Passed port is connected to the FeatureJoiner's Left port and the Tester's Passed port is connected to the FeatureJoiner's Right port.
+Based on the feature counts for the FeatureJoiner, you should be able to see that two of the affected vendors had matching valid license data found, so they came out of the Joined port. Two did not have a valid license, so they came out of the UnjoinedLeft port. These businesses in the food vendor are actually out of business, so they are filtered out of the data.
 
-Double-click the FeatureJoiner to view its parameters. This transformer conducts an SQL-style join. It is setup to do an Inner join (keep only matching records), and to use the shared keys of `BUSINESS_NAME` AND `BusinessTradeName`. Click Cancel.
+![FeatureJoiner results](./images/featurejoiner-results.png)
 
-Based on the feature counts for the FeatureJoiner, you should be able to see that two of the affected vendors had matching valid license data found, so they came out of the Joined port. Two did not have a valid license, so they came out of the UnjoinedLeft port. At first this might be worrying, but if you do look up the licenses for these businesses, you will see they are actually out of business, despite our source food vendor data claiming they are open. We do not need to alert an out-of-business food vendor, so it is OK that these two features will be filtered out of our data.
+**Step 9**
 
-4. Manage Attributes
+Find the AttributeManager on the right side of the "Join Data and Manage Attributes" bookmark, next to the FeatureJoiner.
 
-The final step before we write out our data to create an Excel file of business to alert is to clean up our Attributes. We will use an AttributeManager to rename and remove some attributes.
+![AttributeManager](./images/attributemanager.png)
 
-Find the AttributeManager on the right side of the "Join Data and Manage Attributes" bookmark, next to the FeatureJoiner. Note that the FeatureJoiner's Joined port is connected to the AttributeManager input port.
+**Step 10**
 
-Double-click the AttributeManager to view its parameters. This transformer lets you rename, remove, add, and change values for attributes. This already-configured transformer removes many unnecessary attributes and renames a few others. You can see how each attribute is being modified by looking at the Action column, which will say "Rename" or "Remove." Click Cancel.
+The AttributeManager is configured to rename a few attributes and remove unnecessary attributes we don't want in our final dataset.
 
 If you compare the FeatureJoiner's Joined port cache to the AttributeManager's Output port cache, you will see how the attributes have changed.
 
-5. Clean Up Connection Lines
+![AttributeManager results](./images/attributemanager-results.png)
+
+**Step 11**
 
 Delete the connection between the AttributeValidator and the writer feature type by right-clicking it and choosing Delete.
 
+![AttributeManager results](./images/delete.png)
+
 Add a new connection line between the AttributeManager's Output port and the AffectedVendors writer feature type by clicking and dragging from the right-pointing gray triangle on the Output port to the right-pointing gray triangle on AffectedVendors. Let go to make the connection.
 
-5. Write the Data
+![AttributeManager results](./images/drag.png)
+
+**Step 12**
 
 The final step is to write the data to Excel. Run the workspace to write the data.
 
 To confirm the data was written successfully you can refer to the Translation Log (the last line should report `Translation was SUCCESSFUL`). You can also find the output data by clicking the writer feature type once to select it, then clicking the Open Containing Folder button that appears in the small toolbar above to find the Excel file. You can open it in Open Office if you want to confirm it was written correctly.
 
-6. Continue to Next Exercise
+**Step 13**
 
 Click the Next button below.
