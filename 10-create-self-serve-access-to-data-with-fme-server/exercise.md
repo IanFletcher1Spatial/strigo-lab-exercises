@@ -56,7 +56,7 @@ If you run the workspace immediately, it will use the original input Shapefile. 
 In the Translation Parameter Values dialog that appears when the workspace is run, browse to the updated `water_service_area_updated.zip`,  which is in the `C:\FMEData2021\Resources\GettingStarted\Data` folder. This zip file contains all of the sidecar shapefile files and has a new service area that customers will have to be notified about. In the File Browser, change the Shapefiles (`*.shp`) drop-down to **All File(s)** to see the zip file.
 
 Then set the Date of Water ServiceService Date to some time within the next week. Finally, before clicking Run, uncheck the **Save As User Parameter Default Values**. Ignore the Destination Microsoft Excel File, we can leave it as the default for now. We don't want these to be saved as the default because this is just a test run to ensure the workspace is working correctly.\
-![Prompt.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Pv)
+![Prompt.png](Prompt.png)
 
 #### 9\. Publish to FME Server
 Now that we have the parameters set up and confirmed that the workspace runs correctly, we can publish it to FME Server.\
