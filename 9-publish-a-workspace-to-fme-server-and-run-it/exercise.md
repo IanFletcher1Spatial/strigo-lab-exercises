@@ -1,7 +1,8 @@
 <head><base target="_blank"> </head>
 
 #### 1\. Open FME Workbench
-In FME Workbench, open the AddressesToNotify.fmwt workspace that is attached to this article. If you completed the [Getting Started with FME Desktop tutorial](https://community.safe.com/s/article/getting-started-with-fme-desktop-translate-data-be), it is the same final workspace (GettingStarted-WriteData.fmwt).\
+In FME Workbench, open the C:\FMEData2021\Resources\GettingStarted\Workspaces\GettingStarted-WriteData-Begin.fmwt.
+If you completed the [Getting Started with FME Desktop tutorial](https://community.safe.com/s/article/getting-started-with-fme-desktop-translate-data-be), it is the same final workspace (GettingStarted-WriteData-Begin.fmwt).\
 ![WorkspaceOverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292lQ)
 
 This workspace reads in water service areas for the City of Surrey, in British Columbia, then a Tester transformer is used to select the service area with a status of RED. Then using a SpatialFilter, it selects all the addresses that are within the RED water service area. After cleaning up the attributes with an AttributeManager, the customer addresses that are affected are written out to an Excel spreadsheet to be manually notified.
@@ -18,17 +19,24 @@ Now that we have confirmed the workspace works, we can publish it to FME Server.
 In the FME Server Publishing Wizard, we will need to set up a new connection. Click on the drop-down next to Connection and select Add Web Connection.
 
 An FME Server Connection dialog will appear, here we will need to set the parameters to our FME Server. Set the Connection Name to something memorable, we used Training FME Server.\
-Next, set up the Server URL, since we are connecting to an FME Server that is on the same machine as FME Workbench, we can use [http://localhost](http://localhost/). If you are connecting to a remote FME Server, you will need to enter the full URL. Finally, set the username and password that you used in the previous exercise to log in. Once everything is set up, click Authenticate.\
+
+Next, set up the Server URL, since we are connecting to an FME Server that is on the same machine as FME Workbench, we can use [http://localhost](http://localhost/).
+
+If you are connecting to a remote FME Server, you will need to enter the full URL.
+
+Finally, set the username (`admin`) and password (`FMElearnings`) that you used in the previous exercise to log in.
+
+Once everything is set up, click Authenticate.\
 ![Connection.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292lu)
 
 Once authenticated, this connection will be available any time you publish a workspace, so you only need to create the connection once. Click Next on the connections page of the dialog to on to the next step.\
 ![CreateConnection .png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292lz)
 
-* b. Create Repository*\
+*b. Create Repository*\
 Now we need to create a new repository to contain our workspace. Next to Repository Name, click on the New button to create a new repository. Enter Server Tutorial for the name, and a description "Getting Started with FME Server Tutorial". Click OK.\
 ![CreateNewRepo.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292m4)
 
-*c. Upload Files *\
+*c. Upload Files*\
 For our workspace to run correctly, we need to upload the files. Enable Upload Files at the bottom of the dialog. After enabling it, it should state 5 files for upload. Then click Next.\
 ![UploadFiles.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292m9)
 

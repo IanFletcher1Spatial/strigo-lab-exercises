@@ -1,10 +1,9 @@
 <head><base target="_blank"> </head>
 
 #### 1\. Open FME Workbench
-Open the workspace from the [previous article](https://community.safe.com/s/article/publish-a-workspace-to-fme-server-and-run-it) in FME Workbench. Alternatively, open the template attached to this article (AddressesToNotify.fmwt) in FME Workbench.
+Continue with the workspace from the previous exercise in FME Workbench. Alternatively, open the template `C:\FMEData2021\Resources\GettingStarted\Workspaces\GettingStarted-WriteData-Begin.fmwt` in FME Workbench.
 
 #### 2\. Open the Parameter Manager
-The following instructions are for FME Desktop 2021.0+ interface. For older versions of FME, see the [training manual](https://s3.amazonaws.com/gitbook/Desktop-Advanced-2019/DesktopAdvanced4Parameters/4.02.UserParameters.html) for the interface but follow this step for the input values.
 
 In the Navigator window, right-click on User Parameters and select Manage User Parameters.\
 ![OpenParam.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Nf)
@@ -20,22 +19,22 @@ After removing the CSV parameter, let's modify the Source Esri Shapefile paramet
 
 #### 4\. Modify Source Parameter
 Select the Source Esri Shapefile parameter, then on the right-hand side, edit the Prompt to read:\
-Service Areas Input Shapefile Dataset\
+`Service Areas Input Shapefile Dataset`\
 ![SourceParam.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294P2)
 
 #### 5\. Create New Parameter
 While we're in the Parameter Manager, let's create a parameter for the date of service. This will be set by the user when the workspace is run and will be attached to the customers to notify the output spreadsheet.\
-Click on the green plus sign in the top left, and then select DateTime.\
+Click on the green plus sign in the top left, and then select **DateTime**.\
 ![CreateDateTime.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294PH)
 
 Then on the right-hand side, enter the following parameter properties:
 
--   Parameter Identifier: SERVICE_DATE
--   Prompt: Date of water service
--   Published: Enabled
--   Required: Enabled
--   Disable Attribute Assignment: Enabled
--   Time Format: Date Only
+-   Parameter Identifier: `SERVICE_DATE`
+-   Prompt: `Date of water service`
+-   Published: `Enabled`
+-   Required: `Enabled`
+-   Disable Attribute Assignment: `Enabled`
+-   Time Format: `Date Only`
 
 ![ServiceDate.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294PR)
 
@@ -54,7 +53,7 @@ Now that we have a SERVICE_DATE parameter, we need to create an attribute to uti
 If you run the workspace immediately, it will use the original input Shapefile. However, if you select Prompt for User Parameters from the drop-down next to Run then click Run, you will be prompted to choose the input file, as well as a service date.\
 ![RunPrompt.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Pq)
 
-In the Translation Parameter Values dialog that appears when the workspace is run, browse to the updated water_service_area_updated.zip,  which is available from the Files section on this article. This zip file contains all of the sidecar shapefile files and has a new service area that customers will have to be notified about. In the File Browser, change the Shapefiles (*.shp) drop-down to All File(s) to see the zip file.
+In the Translation Parameter Values dialog that appears when the workspace is run, browse to the updated `water_service_area_updated.zip`,  which is in the `C:\FMEData2021\Resources\GettingStarted\Data` folder. This zip file contains all of the sidecar shapefile files and has a new service area that customers will have to be notified about. In the File Browser, change the Shapefiles (*.shp) drop-down to All File(s) to see the zip file.
 
 Then set the Date of Water ServiceService Date to some time within the next week. Finally, before clicking Run, uncheck the Save As User Parameter Default Values. Ignore the Destination Microsoft Excel File, we can leave it as the default for now. We don't want these to be saved as the default because this is just a test run to ensure the workspace is working correctly.\
 ![Prompt.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Pv)
@@ -77,7 +76,7 @@ On the side menu bar, expand Files & Connections, then click on Resources.\
 [Resources](https://docs.safe.com/fme/html/FME_Server_Documentation/WebUI/Resources.htm) are where files are stored such as log files, temp files, connections, and backup files. The Data folder is where users can store data outside of repositories to be used across FME Server. Open the Data Folder (1), then click New in the top corner (2). Create a new folder called Server Training (3), then click OK.\
 ![NewFolder.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Q5)
 
-Open the new Server Training folder, and click on Upload > Files. Then select water_service_area_updated.zip, and click OK. Now, this file can be accessed anywhere in FME Server.\
+Open the new Server Training folder, and click on Upload > Files. Then select `water_service_area_updated.zip`, and click OK. Now, this file can be accessed anywhere in FME Server.\
 ![UploadedFile.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294QA)
 
 #### 12\. Run Workspace
