@@ -62,7 +62,7 @@ Enter 35 for Buffer Distance.
 
 Click Run.
 
-IMAGE
+![Running a workspace on FME Server](./images/run.png)
 
 The workspace will run on FME Server and you will be presented with a Data Download URL. Click the link and extract it to view the Excel data.
 
