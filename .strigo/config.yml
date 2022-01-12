@@ -28,3 +28,5 @@ classes:
         title: "Creating Parameters and Uploading Data for Self-Serve Access"
       - file: "../11-schedule-a-workspace-to-run-with-fme-server/exercise.md"
         title: "Schedule a Workspace to Run with FME Server Automations"
+      - file: "../12-course-wrap-up/exercise.md"
+        title: "Course Wrap-Up"

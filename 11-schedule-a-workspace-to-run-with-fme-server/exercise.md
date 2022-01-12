@@ -65,4 +65,4 @@ When we set up our schedule, we enabled *Run Immediately*, which caused the auto
 Once the automation has been started, if you double-click on the **Schedule** component to open the parameters, a *Trigger* button will appear at the bottom. You can't modify any of the parameters because the automation is running, but you can trigger it to initiate the schedule.\
 ![TriggerSchedule.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000ogcq&feoid=00N30000006n8wU&refid=0EM4Q00000295jX)
 
-#### 7. Click "Done"
+#### 7. Click "Next"
