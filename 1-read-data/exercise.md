@@ -11,7 +11,7 @@ After FME Workbench opens, click on the New button to create a new workspace. Th
 ![WorkbenchOverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azF)
 
 #### 3\. Drag and Drop to Add Data
-In the File Manager, browse to the C:\FMEData2021\Resources\GettingStarted\Data folder. In the Data folder, click on the LocalAddresses.csv and drag it into FME Workbench.\
+In the File Manager, browse to the C:\FMEData2021\Resources\GettingStarted\Data folder. In the Data folder, click on the **LocalAddresses.csv** and drag it into FME Workbench.\
 ![AddCSV.gif](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azK)
 
 #### 4\. Introduction to the Add Reader Dialog
