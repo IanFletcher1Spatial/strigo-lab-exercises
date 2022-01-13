@@ -8,7 +8,7 @@ Continue working in the workspace from the previous exercise or open the C:\FM
 #### 1\. Add a Writer
 Now that the points have been filtered to include only the ones that fall within the water_service_area boundary that has a RED status, and we've cleaned up the attributes, we can now write out the data.  The utility company has requested the list of addresses be in a Microsoft Excel spreadsheet.
 
-To add a writer to the canvas, click on the Writer button on the top menu bar or by going to Writers > Add Writer.\
+To add a writer to the canvas, click on the **Writer** button on the top menu bar or by going to Writers > Add Writer.\
 ![WriterButton.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7m&feoid=00N30000006n8wU&refid=0EM4Q0000028bXC)
 
 #### 2\. Introduction to the Add Writer Dialog
@@ -37,13 +37,13 @@ Select Automatic for the Sheet Definition; this will ensure that our writer auto
 ![SheetDefinition.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7m&feoid=00N30000006n8wU&refid=0EM4Q0000028bXR)
 
 #### 3\. Feature Type Dialog
-When you set the Definition to Automatic in the Add Writer dialog, the details about the Feature Type name will need to be defined. After clicking the OK button in the Add Writer dialog, a Feature Type dialog appears. In this dialog, you will need to set the Feature Type Name; this will be the name of the layer or worksheet.
+When you set the *Definition* to **Automatic** in the *Add Writer dialog*, the details about the Feature Type name will need to be defined. After clicking the **OK** button in the Add Writer dialog, a Feature Type dialog appears. In this dialog, you will need to set the Feature Type Name; this will be the name of the layer or worksheet.
 
-Set the Sheet Name to Addresses and click OK. There are other parameters that could be set for the Microsoft Excel writer, but they can be left as default for this tutorial.\
+Set the *Sheet Name* to **Addresses** and click **OK**. There are other parameters that could be set for the Microsoft Excel writer, but they can be left as default for this tutorial.\
 ![FeatureType.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7m&feoid=00N30000006n8wU&refid=0EM4Q0000028bXb)
 
 #### 4\. Connect the Writer Feature Type
-Once the Addresses writer feature type has been added to the canvas, it needs to be connected to the workflow. Click on the output port of the AttributeManager transformer drag to connect to the writer feature type input port.\
+Once the Addresses writer feature type has been added to the canvas, it needs to be connected to the workflow. Click on the output port of the **AttributeManager** transformer drag to connect to the writer feature type input port.\
 ![ConnectedWriter.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7m&feoid=00N30000006n8wU&refid=0EM4Q0000028bXl)
 
 #### 5. Click "Next"

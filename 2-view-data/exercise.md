@@ -35,7 +35,7 @@ The Feature Information View is where any additional information about a feature
 ![FeatureTypeView.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7N&feoid=00N30000006n8wU&refid=0EM4Q0000028b11)
 
 #### 4\. Explore CSV Data
-With the CSV LocalAddresses open in the Visual Preview window, take a moment to explore the dataset. In the Table View, we have addresses and a latitude/longitude location. FME 2020 or newer, automatically turns the latitude and longitude into point data which can be seen in the Graphics View.
+With the CSV LocalAddresses open in the Visual Preview window, take a moment to explore the dataset. In the Table View, we have addresses and a latitude/longitude location. 
 
 #### 5\. Explore water_service_area data
 Now, view the water_service_area data in Visual Preview by clicking on the green magnifying glass on the reader feature type.\

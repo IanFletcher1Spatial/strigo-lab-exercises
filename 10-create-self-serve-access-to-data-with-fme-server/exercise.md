@@ -42,15 +42,15 @@ Click **OK** to finish with the Parameter Manager.
 
 #### 6\. Modify Shapefile Reader
 Since we won't know if the filename of the updated file will be different, let's change our shapefile reader to accept all filenames with the same schema.\
-Double-click on the water_service_area reader feature type to open the parameters. In the parameters, enable Merge Feature Type and leave the other parameters set at the default, then click OK.\
+Double-click on the **water_service_area** reader feature type to open the parameters. In the parameters, enable Merge Feature Type and leave the other parameters set at the default, then click **OK**.\
 ![MergeFeature.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294PW)
 
 #### 7. Link Published Parameter to Service Date Attribute
-Now that we have a SERVICE_DATE parameter, we need to create an attribute to utilize it in the workspace. Open the AttributeManager transformer, and add a new Output Attribute called `SERVICE_DATE`. Then for the AttributeValue, click on the box to expose the drop-down arrow then select **User Parameter > SERVICE_DATE**.\
+Now that we have a SERVICE_DATE parameter, we need to create an attribute to utilize it in the workspace. Open the **AttributeManager** transformer, and add a new *Output Attribute* called `SERVICE_DATE`. Then for the *AttributeValue*, click on the box to expose the drop-down arrow then select **User Parameter > SERVICE_DATE**.\
 ![AttributeManager.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Pg)
 
 #### 8\. Run the Workspace
-If you run the workspace immediately, it will use the original input Shapefile. However, if you select Prompt for User Parameters from the drop-down next to Run then click Run, you will be prompted to choose the input file, as well as a service date.\
+If you run the workspace immediately, it will use the original input Shapefile. However, if you select **Prompt for User Parameters** from the drop-down next to *Run* then click **Run**, you will be prompted to choose the input file, as well as a service date.\
 ![RunPrompt.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Pq)
 
 In the Translation Parameter Values dialog that appears when the workspace is run, browse to the updated `water_service_area_updated.zip`,  which is in the `C:\FMEData2021\Resources\GettingStarted\Data` folder. This zip file contains all of the sidecar shapefile files and has a new service area that customers will have to be notified about. In the File Browser, change the Shapefiles (`*.shp`) drop-down to **All File(s)** to see the zip file.
@@ -82,7 +82,7 @@ On the side menu bar in FME Server, click on **Run Workspace**. On the Run Works
 Check out the *Published Parameters*. The two parameters that were set up and just tested in FME Workbench are shown. Click on the **Browse Resources** button for the *Service Area* parameter.\
 ![image5.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Qe)
 
-This brings up the *Resource* browser. Here you could upload a temporary file if you are testing a workspace, but since we uploaded a file in the previous step we can select it here. Click on the **Data** folder to open it, then **Server Training**, then select the green plus sign next to the water_service_area_update.zip. You may need to remove the $(FME_MR_DIR)water_service_area.shp file first.
+This brings up the *Resource* browser. Here you could upload a temporary file if you are testing a workspace, but since we uploaded a file in the previous step we can select it here. Click on the **Data** folder to open it, then **Server Training**, then select the **green plus sign** next to the *water_service_area_update.zip*. You may need to remove the *$(FME_MR_DIR)water_service_area.shp* file first.
 
 Anytime you click on the green plus sign the items will appear under the *Selected Items* section, this allows you to choose files from different folders. Click **OK** once the file is selected.\
 ![SelectUploadedFile.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Qt)

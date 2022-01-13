@@ -79,12 +79,12 @@ After the workspace has been run, there should be a successful translation with 
 Click on the URL to download the zip file. Open up the zip file to confirm there is a Microsoft Excel file.
 
 #### 7\. Share Workspace
-Now that we have confirmed the workspace runs successfully, we can share it with our colleagues so they can run the workspace if they need to. On the side menu click on Workspaces, this is how you can access any repository in FME Server.\
+Now that we have confirmed the workspace runs successfully, we can share it with our colleagues so they can run the workspace if they need to. On the side menu click on **Workspaces**, this is how you can access any repository in FME Server.\
 ![Workspaces.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292ms)
 
-In the Workspaces page, click on the Share button next to the Server Tutorial repository. Note that the entire contents of the repository will be shared. If you don't want to share the entire repository, you will need to move the items you wish to be shared to their own repository.\
+In the Workspaces page, click on the **Share** button next to the Server Tutorial repository. Note that the entire contents of the repository will be shared. If you don't want to share the entire repository, you will need to move the items you wish to be shared to their own repository.\
 ![ShareButton.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292mx)
 
-In the Sharing Options dialog, select the user Author and set their Permissions to Can Run. Also, select the permissions role fmeauthor and set the Permissions to Can Run. This will allow both the Author user and any other users with the fmeauthor role to only run the workspace. For more information on permissions and users see the [documentation](https://docs.safe.com/fme/html/FME_Server_Documentation/AdminGuide/AccessControl.htm?Highlight=permission).\
+In the Sharing Options dialog, select the user **Author** and set their *Permissions* to **Can Run**. Also, select the permissions role **fmeauthor** and set the *Permissions* to **Can Run**. This will allow both the Author user and any other users with the fmeauthor role to only run the workspace. For more information on permissions and users see the [documentation](https://docs.safe.com/fme/html/FME_Server_Documentation/AdminGuide/AccessControl.htm?Highlight=permission).\
 ![SharingOptions.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292n7)
 #### 8. Click "Next"

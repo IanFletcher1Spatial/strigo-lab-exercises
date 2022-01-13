@@ -1,15 +1,17 @@
 <head><base target="_blank"> </head>
 
 #### 1\. Open FME Workbench
-Open FME Workbench to start creating a workspace. To do this in Windows go to Start > FME Desktop 2021.0 > FME Workbench. In macOS, go to Applications > FME 2021.0 > FME Workbench.\
+Open FME Workbench to start creating a workspace. To do this in Windows go to Start > FME Desktop 2021.0 > FME Workbench.
+
 We will be using FME Workbench for the entirety of the tutorial series. FME Workbench is where you will author all of your workspaces.
 
 #### 2\. Start a New Workspace
-After FME Workbench opens, click on the New button to create a new workspace. The empty workspace is referred to as the "canvas." The canvas is where all of the objects in a workspace will be contained. If you have just installed FME, click on Close to exit Workbench Essentials, it can be accessed again via Help > Workbench Essentials.\
+After FME Workbench opens, click on the New button to create a new workspace. The empty workspace is referred to as the "canvas." The canvas is where all of the objects in a workspace will be contained.
+
 ![WorkbenchOverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azF)
 
 #### 3\. Drag and Drop to Add Data
-In your operating system's file manager, browse to the C:\FMEData2021\Resources\GettingStarted\Data folder. In the Data folder, click on the LocalAddresses.csv and drag it into FME Workbench.\
+In the File Manager, browse to the C:\FMEData2021\Resources\GettingStarted\Data folder. In the Data folder, click on the LocalAddresses.csv and drag it into FME Workbench.\
 ![AddCSV.gif](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azK)
 
 #### 4\. Introduction to the Add Reader Dialog
@@ -24,7 +26,7 @@ FME can also read different dataset types, like folders, compressed files (.zip,
 Each format has specific parameters that can be set. To check the parameters, click on the Parameter button, which will bring up the Format Parameters dialog. If the Parameters button has an exclamation point ( ! ) at the end of it; this means that there are mandatory parameters that need to be set. To learn more about your format's specific parameters you can click on the Help button in the Parameters dialog.\
 ![ParametersButton.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azo)
 
-If you are using FME 2020 or newer, there are no parameters to set with this dataset, as FME automatically takes the Latitude and Longitude values in the dataset, and assigns them to the x and y coordinate data type. With this change to the data type, we will see points when we view the data in the [next article](https://community.safe.com/s/article/getting-started-with-fme-desktop-view-data).  If you have time, explore the parameters.
+There are no parameters to set with this dataset, as FME automatically takes the Latitude and Longitude values in the dataset, and assigns them to the x and y coordinate data type. With this change to the data type, we will see points when we view the data in the [next article](https://community.safe.com/s/article/getting-started-with-fme-desktop-view-data).  If you have time, explore the parameters.
 
 *c. Coordinate System*\
 FME is coordinate system aware, if FME can detect the dataset's coordinate system, the Coord. System section will say "Read from Source." If it cannot, it will say "Unknown." If you know the coordinate system, yet FME doesn't detect it, you can enter it into the Coord. System box.\
