@@ -81,8 +81,6 @@ classes:
       - file: "../improving-workspace-style/exercise.md"
         title: "Improving Workspace Style"
 
-      - file: "../debug-encoding-problems/exercise.md"
-        title: "Debug Encoding Problems"
       - file: "../debugging-a-workspace/exercise.md"
         title: "Debugging a Workspace"
       - file: "../investigate-problems-step-by-step-with-feature-debugging/exercise.md"
