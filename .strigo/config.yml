@@ -54,5 +54,36 @@ classes:
       - file: "../filter-data-by-attribute-values/exercise.md"
         title: "Filter Data by Attribute Values"
 
-      - file: "../course-wrap-up/exercise.md"
-        title: "Course Wrap-up"
+      - file: "../create-and-modify-attributes/exercise.md"
+        title: "Create and Modify Attributes"
+
+      - file: "../use-conditional-filtering/exercise.md"
+        title: "Use Conditional Filtering"
+      - file: "../process-data-in-groups/exercise.md"
+        title: "Process Data In Groups"
+
+      - file: "../workspace-prototyping/exercise.md"
+        title: "Workspace Prototyping"
+      - file: "../use-multiple-readers-and-writers/exercise.md"
+        title: "Use Multiple Readers and Writers"
+      - file: "../use-partial-runs-to-test-your-workspace/exercise.md"
+        title: "Use Partial Runs To Test Your Workspace"
+
+      - file: "../flood-risk-project/exercise.md"
+        title: "Flood Risk Project"
+
+      - file: "../join-tables/exercise.md"
+        title: "Join Tables"
+
+      - file: "../join-tables/exercise.md"
+        title: "Join Tables"
+
+      - file: "../improving-workspace-style/exercise.md"
+        title: "Improving Workspace Style"
+
+      - file: "../debug-encoding-problems/exercise.md"
+        title: "Debug Encoding Problems"
+      - file: "../debugging-a-workspace/exercise.md"
+        title: "Debugging a Workspace"
+      - file: "../investigate-problems-step-by-step-with-feature-debugging/exercise.md"
+        title: "Investigate Problems Step-By-Step With Feature Debugging"
