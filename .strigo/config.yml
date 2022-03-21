@@ -54,16 +54,5 @@ classes:
       - file: "../filter-data-by-attribute-values/exercise.md"
         title: "Filter Data by Attribute Values"
 
-      - file: "../create-a-self-serve-workspace/exercise.md"
-        title: "Create a Self-Serve Workspace for the Web"
-      - file: "../publish-a-self-serve-workspace/exercise.md"
-        title: "Publish a Self-Serve Workspace to the Web"
-      - file: "../run-a-workspace-on-the-web/exercise.md"
-        title: "Run a Workspace on the Web"
-      - file: "../automate-workflows-on-schedule/exercise.md"
-        title: "Automate Workflows on Schedule"
-      - file: "../create-a-self-serve-web-app/exercise.md"
-        title: "Create a Self-Serve Web App"
-
       - file: "../course-wrap-up/exercise.md"
-        title: "Course Wrap-up"        
+        title: "Course Wrap-up"
