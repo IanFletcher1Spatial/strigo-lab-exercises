@@ -26,7 +26,7 @@ We can do this using the Tester transformer, which lets us conduct simple pass/f
 
 Now that we have impacted food vendors and a list of current business licenses, we can join this data together to add business license data to the impacted vendors using the FeatureJoiner.
 
-Based on the feature counts for the FeatureJoiner, you should be able to see that two of the affected vendors had matching valid license data found, so they came out of the Joined port. Two did not have a valid license, so they came out of the UnjoinedLeft port. At first this might be worrying, but if you do look up the licenses for these businesses, you will see they are actually out of business, despite our source food vendor data claiming they are open. We do not need to alert an out-of-business food vendor, so it is OK that these two features will be filtered out of our data.
+Based on the feature counts for the FeatureJoiner, you should be able to see that two of the affected vendors had matching valid license data found, so they came out of the Joined port. Two did not have a valid license, so they came out of the UnjoinedLeft port. These two vendors are actually out of business, despite our source food vendor data claiming they are open. We do not need to alert an out-of-business food vendor, so it is OK that these two features will be filtered out of our data.
 
 #### 4. Manage Attributes
 
@@ -42,7 +42,7 @@ Add a new connection line between the AttributeManager's Output port and the Aff
 
 The final step is to write the data to Excel. Run the workspace to write the data.
 
-To confirm the data was written successfully you can refer to the Translation Log (the last line should report `Translation was SUCCESSFUL`). You can also find the output data by clicking the writer feature type once to select it, then clicking the Open Containing Folder button that appears in the small toolbar above to find the Excel file. You can open it in Open Office if you want to confirm it was written correctly.
+To confirm the data was written successfully you can refer to the Translation Log (the last line should report `Translation was SUCCESSFUL`). You can also find the output data by clicking the writer feature type once to select it, then clicking the Open Containing Folder button that appears in the small toolbar above to find the Excel file. You can open it in Open Office (just click Next on the prompt until it opens) if you want to confirm it was written correctly.
 
 #### 7. Continue to Next Exercise
 
