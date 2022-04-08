@@ -1,4 +1,6 @@
-**Step 1**
+<head><base target="_blank"> </head>
+
+#### 1. Perform Spatial Analysis (Spatial Join)
 
 Find the Bufferer transformer in the "Determine Impacted Area" bookmark.
 
@@ -10,65 +12,31 @@ The Bufferer is configured to create features representing the areas within 30 f
 
 Inspect the Bufferer's Buffered port feature cache. If you zoom in, you will see the lines have been buffered into polygons.
 
-![Buffered streets](./images/bufferer-results.png)
-
-**Step 3**
-
-Find the SpatialFilter transformer in the "Find Impacts" bookmark.
-
-![Buffered streets](./images/spatialfilter.png)
-
-**Step 4**
-
-The SpatialFilter is configured to find food vendors within the buffered areas.
+Next, we need to find which food vendor points intersect (or overlay) the affected construction zones. We can use the SpatialFilter transformer for this job. We have  configured the SpatialFilter to find intersecting features.
 
 Observe the feature counts for the SpatialFilter's Passed port. Four food vendors will be affected by the road construction.
 
-![Four matches](./images/spatialfilter-results.png)
+#### 2. Perform an Attribute-Based Filter
 
-**Step 5**
+For the remaining steps, we'll just quickly look at each transformer for the sake of time.
 
-Find the Tester in the Get Current License Data bookmark.
+The next step we want to accomplish is to enrich our spatial data with tabular data from another source. We use the FeatureJoiner to join business license data to the affected food vendors, enriching our spatial data with an external tabular data source.
 
-![Tester](./images/tester.png)
+Before joining, we should make sure we are only using current business licenses.
 
-**Step 6**
+We can do this using the Tester transformer, which lets us conduct simple pass/fail logical tests on features to filter them. It filters out invalid features.
 
-The Tester is configured to filter out business licenses that are not valid for the year 2021.
+#### 3. Perform an Attribute-Based Join
 
-Observe the Tester's feature counts. 62,496 licenses are valid for 2021 (the Passed port). We will use these features and leave the remaining features in the Failed port, filtering them out of our data.
+Now that we have impacted food vendors and a list of current business licenses, we can join this data together to add business license data to the impacted vendors using the FeatureJoiner.
 
-![Tester](./images/tester-results.png)
+Based on the feature counts for the FeatureJoiner, you should be able to see that two of the affected vendors had matching valid license data found, so they came out of the Joined port. Two did not have a valid license, so they came out of the UnjoinedLeft port. These two vendors are actually out of business, despite our source food vendor data claiming they are open. We do not need to alert an out-of-business food vendor, so it is OK that these two features will be filtered out of our data.
 
-**Step 7**
+#### 4. Manage Attributes
 
-Find the FeatureJoiner in the "Join Data and Manage Attributes" bookmark.
+The final step before we write out our data to create an Excel file of business to alert is to clean up our Attributes. We will use an AttributeManager to rename and remove some attributes. This transformer removes many unnecessary attributes and renames a few others.
 
-![FeatureJoiner](./images/featurejoiner.png)
-
-**Step 8**
-
-The FeatureJoiner is configured to join the business license data to the food vendor data.
-
-Based on the feature counts for the FeatureJoiner, you should be able to see that two of the affected vendors had matching valid license data found, so they came out of the Joined port. Two did not have a valid license, so they came out of the UnjoinedLeft port. These businesses in the food vendor are actually out of business, so they are filtered out of the data.
-
-![FeatureJoiner results](./images/featurejoiner-results.png)
-
-**Step 9**
-
-Find the AttributeManager on the right side of the "Join Data and Manage Attributes" bookmark, next to the FeatureJoiner.
-
-![AttributeManager](./images/attributemanager.png)
-
-**Step 10**
-
-The AttributeManager is configured to rename a few attributes and remove unnecessary attributes we don't want in our final dataset.
-
-If you compare the FeatureJoiner's Joined port cache to the AttributeManager's Output port cache, you will see how the attributes have changed.
-
-![AttributeManager results](./images/attributemanager-results.png)
-
-**Step 11**
+#### 5. Clean Up Connection Lines
 
 Delete the connection between the AttributeValidator and the writer feature type by right-clicking it and choosing Delete.
 
@@ -76,14 +44,12 @@ Delete the connection between the AttributeValidator and the writer feature type
 
 Add a new connection line between the AttributeManager's Output port and the AffectedVendors writer feature type by clicking and dragging from the right-pointing gray triangle on the Output port to the right-pointing gray triangle on AffectedVendors. Let go to make the connection.
 
-![AttributeManager results](./images/drag.png)
-
-**Step 12**
+#### 6. Write the Data
 
 The final step is to write the data to Excel. Run the workspace to write the data.
 
-To confirm the data was written successfully you can refer to the Translation Log (the last line should report `Translation was SUCCESSFUL`). You can also find the output data by clicking the writer feature type once to select it, then clicking the Open Containing Folder button that appears in the small toolbar above to find the Excel file. You can open it in Open Office if you want to confirm it was written correctly.
+To confirm the data was written successfully you can refer to the Translation Log (the last line should report `Translation was SUCCESSFUL`). You can also find the output data by clicking the writer feature type once to select it, then clicking the Open Containing Folder button that appears in the small toolbar above to find the Excel file. You can open it in Open Office (just click Next on the prompt until it opens) if you want to confirm it was written correctly.
 
-**Step 13**
+#### 7. Continue to Next Exercise
 
 Click the Next button below.
