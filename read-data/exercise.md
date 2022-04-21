@@ -14,10 +14,6 @@ Three existing reader feature types (data sources) are on the left: upcoming roa
 
 The bookmarks (containers) and annotation (comments) containing comments about what step will take place where. The blue objects in the middle of the workspace are the transformers we will use to build our workspace. They are already configured and connected for the sake of speed.
 
-**Step 3**
-
-Click the "CSV" reader feature type without annotation once to select it. It will be highlighted in blue to show it is selected.
-
 #### 4. Continue to Next Exercise
 
 Click the Next button below.

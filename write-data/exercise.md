@@ -6,9 +6,9 @@ Find the "Create a Report in Excel" bookmark (on the bottom-right of the Canvas)
 
 #### 2. View Connection Between Reader and Writer Feature Types
 
-![Selected writer feature type](./images/writer-ft.png)
+Observe that there is a dark black connection line going from the right-pointing arrow (output port) on the food vendors CSV reader feature type to the red right-pointing arrow on the Excel writer feature type. This connection line tells FME to write data to this writer feature type.
 
-**Step 2**
+![Selected writer feature type](./images/writer-ft.png)
 
 #### 3. Run the Workspace
 
