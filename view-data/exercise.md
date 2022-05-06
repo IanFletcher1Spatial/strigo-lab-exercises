@@ -12,7 +12,11 @@ When you click Run the Translation Log appears and informs you of the results of
 
 Note the numbers next to each feature type. These are feature counts and represent how many features (or rows) of data were read.
 
+![Feature counts](./images/feature-count.png)
+
 #### 2. Inspect the Construction Projects and Food Vendors
+
+Click the cache on the "road-ahead-upcoming-projects" reader feature type. You will see the location of the construction projects appear on a map in the Visual Preview window.
 
 ![Feature cache](./images/inspect.png)
 
@@ -20,7 +24,11 @@ Optionally, you can click the food vendors "CSV" reader feature type cache to in
 
 #### 3. Explore Visual Preview
 
+1. Zoom in on some data using your mouse wheel or the Zoom In tool in the Visual Preview > Graphics Toolbar (above the map).
+2. Click a feature in Graphics View to view its attributes in Table View. Try the other way, clicking a row in Table View to see the feature highlighted in Graphics view.
 3. If you are inspecting both caches at once, you can change feature types in Table View by clicking the drop-down under Table.
+
+![Feature cache](./images/preview.png)
 
 #### 4. Continue to Next Exercise
 

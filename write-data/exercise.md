@@ -6,19 +6,21 @@ Find the "Create a Report in Excel" bookmark (on the bottom-right of the Canvas)
 
 #### 2. View Connection Between Reader and Writer Feature Types
 
-Observe that there is a dark black connection line going from the right-pointing arrow (output port) on the food vendors CSV reader feature type to the red right-pointing arrow on the Excel writer feature type. This connection line tells FME to write data to this writer feature type.
-
-![Selected writer feature type](./images/writer-ft.png)
+Observe that there is a dark black connection line going from the output port on the food vendors CSV reader feature type to the input port on the Excel writer feature type. This connection line tells FME to write data to this writer feature type.
 
 #### 3. Run the Workspace
 
 Click the Run button to run the workspace and convert your CSV to Excel.
+
+![Run workspacc](./images/run.png)
 
 #### 4. View the Written Data
 
 After `Translation was SUCCESSFUL` appears as the last line in your Translation Log, the workspace has finished running.
 
 To confirm the Excel file was written, click the AffectedVendors writer feature type once to select it.
+
+![Selected writer feature type](./images/writer-ft.png)
 
 Then click the Open Containing folder icon that appears on the small toolbar above the feature type.
 
