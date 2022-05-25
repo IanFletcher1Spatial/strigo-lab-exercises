@@ -22,3 +22,5 @@ classes:
         title: "Run a Workspace with FME Server"
       - file: "../automate-a-workspace/exercise.md"
         title: "Automate a Workspace"
+      - file: "../course-wrap-up/exercise.md"
+        title: "Course Wrap Up"
