@@ -31,3 +31,7 @@ You should see one job where FoodVendors.fmw ran recently. You can click the Job
 ![Log](./images/log.png)
 
 Congratulations! You built an FME workspace and learned about creating data integration automations using FME Server.
+
+#### 5. Continue to Next Exercise
+
+Click the Next button below.
