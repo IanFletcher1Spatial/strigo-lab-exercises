@@ -2,7 +2,7 @@
 
 #### 1. Confirm FME Workbench Is Open
 
-You should see an FME Workbench window with the workspace `C:\\FMEData2021\\Resources\\FMEAccelerator\\FoodVendors-Start.fmw` loaded.
+You should see an FME Workbench window with the workspace `C:\FMEData2022\Resources\FMEAccelerator\FoodVendors-Start.fmw` loaded.
 
 #### 2. Examine Workspace
 
