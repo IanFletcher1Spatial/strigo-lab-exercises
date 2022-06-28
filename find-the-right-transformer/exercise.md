@@ -1,9 +1,9 @@
 <head><base target="_blank"> </head>
 
 #### 1. Follow Jennifer's Steps
-Open the starting workspace, C:\FMEData2021\Workspaces\IntegrateDataWithTheFMEPlatform\find-the-right-transformer.fmw
+Open the starting workspace, C:\FMEData2022\Workspaces\IntegrateDataWithTheFMEPlatform\find-the-right-transformer.fmw
 
-The optional example workspace can be found at C:\FMEData2021\Workspaces\IntegrateDataWithTheFMEPlatform\find-the-right-transformer-example.fmw
+The optional example workspace can be found at C:\FMEData2022\Workspaces\IntegrateDataWithTheFMEPlatform\find-the-right-transformer-example.fmw
 
 Make sure you have reviewed [Jennifer’s steps](https://safe.my.trailhead.com/content/safe/modules/transform-data/find-the-right-transformer).
 

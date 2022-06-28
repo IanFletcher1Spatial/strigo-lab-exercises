@@ -1,7 +1,7 @@
 <head><base target="_blank"> </head>
 
 #### 1. Follow Sven's Steps
-Continue with the previous exercise's workspace or open C:\FMEData2021\Workspaces\IntegrateDataWithTheFMEPlatform\write-data-and-basic-troubleshooting.fmw
+Continue with the previous exercise's workspace or open C:\FMEData2022\Workspaces\IntegrateDataWithTheFMEPlatform\write-data-and-basic-troubleshooting.fmw
 
 Make sure you have followed along with [Sven’s steps](https://safe.my.trailhead.com/content/safe/modules/connect-to-data/write-data-basic-troubleshooting).
 

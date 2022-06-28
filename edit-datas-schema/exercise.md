@@ -1,7 +1,7 @@
 <head><base target="_blank"> </head>
 
 #### 1. Follow Jennifer's Steps
-Continue with the previous exercise's workspace or open C:\FMEData2021\Workspaces\IntegrateDataWithTheFMEPlatform\edit-datas-schema.fmw
+Continue with the previous exercise's workspace or open C:\FMEData2022\Workspaces\IntegrateDataWithTheFMEPlatform\edit-datas-schema.fmw
 
 **If** you need to re-create the database connection, use the following parameters:
 
