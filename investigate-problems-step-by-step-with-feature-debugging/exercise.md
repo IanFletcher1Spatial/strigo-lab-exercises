@@ -2,7 +2,7 @@
 
 #### 1. Follow FME Academy Exercise Steps
 
-Open C:\FMEData2021\Workspaces\UseDataIntegrationBestPractices\exercise-investigate-problems-step-by-step-with-feature-debugging.fmw
+Open C:\FMEData2022\Workspaces\UseDataIntegrationBestPractices\exercise-investigate-problems-step-by-step-with-feature-debugging.fmw
 
 Follow the [exercise steps](https://safe.my.trailhead.com/en/content/safe/modules/debug-workspaces/exercise-investigate-problems-step-by-step-with-feature-debugging?trail_id=fme-desktop-basic).
 

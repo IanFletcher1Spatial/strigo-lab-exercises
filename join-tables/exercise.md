@@ -2,7 +2,7 @@
 
 #### 1. Follow FME Academy Exercise Steps
 
-Open C:\FMEData2021\Workspaces\TransformAttributes\exercise-join-tables.fmwt.
+Open C:\FMEData2022\Workspaces\TransformAttributes\exercise-join-tables.fmwt.
 
 Follow the [exercise steps](https://safe.my.trailhead.com/en/content/safe/modules/join-tables/exercise-join-tables?trail_id=fme-desktop-basic).
 

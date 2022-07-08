@@ -2,7 +2,7 @@
 
 #### 1. Follow FME Academy Exercise Steps
 
-Open C:\FMEData2021\Workspaces\TransformAttributes\exercise-flood-risk-project.fmw.
+Open C:\FMEData2022\Workspaces\TransformAttributes\exercise-flood-risk-project.fmw.
 
 Follow the [exercise steps](https://safe.my.trailhead.com/en/content/safe/modules/use-conditional-values/exercise-flood-risk-project?trail_id=fme-desktop-basic).
 

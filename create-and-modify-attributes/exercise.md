@@ -2,7 +2,7 @@
 
 #### 1. Follow FME Academy Exercise Steps
 
-Open C:\FMEData2021\Workspaces\TransformAttributes\create-and-modify-attributes.fmw.
+Open C:\FMEData2022\Workspaces\TransformAttributes\create-and-modify-attributes.fmw.
 
 Follow the [exercise steps](https://safe.my.trailhead.com/en/content/safe/modules/create-and-modify-attributes/exercise-create-and-modify-attributes?trail_id=fme-desktop-basic).
 
