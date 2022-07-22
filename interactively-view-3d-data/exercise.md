@@ -1,5 +1,7 @@
 <head><base target="_blank"> </head>
 
+**Note:** we upgraded our 3D rendering library for FME 2022.0, and unfortunately that means 3D visualization won't work properly on these virtual machines. We are working on a solution (it's an issue with our machines, not FME), but in the meantime you might not be able to complete this exercise.
+
 #### 1. Follow Sven's Steps
 Open C:\FMEData2022\Workspaces\IntegrateDataWithTheFMEPlatform\interactively-view-3d-data.fmwt
 
