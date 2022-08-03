@@ -2,10 +2,10 @@
 
 #### 1\. Open the FME Server Web Interface
 
-You can open the FME Server Web User Interface in a couple of different ways:
+On your training machine, you can open the FME Server Web User Interface in a couple of different ways:
 
--   Type in http://localhost as a URL in a browser window
--   Or, type in http://FMETraining as a URL in a browser window
+-   Type in `http://localhost` as a URL in a browser window
+-   Or, type in `http://FMETraining` as a URL in a browser window
 -   Or, access it from the Windows Start menu. Find FME Server in the Programs list and click on Web User Interface
 
 #### 2\. Log In
