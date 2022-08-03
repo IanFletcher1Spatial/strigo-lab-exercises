@@ -2,7 +2,7 @@
 
 #### 1. Login to FME Server
 
-You can access FME Server in a web browser at http://localhost.
+You can access FME Server in a web browser at `http://localhost` on your Strigo lab machine.
 
 Your browser should have auto-saved your FME Server credentials. If not, please enter them and click Login:
 
