@@ -23,7 +23,10 @@ Set the Format to Microsoft Excel and then browse to a location to save the file
 
 *b. Parameters*\
 Each format has specific parameters that can be set. To check the parameters, click on the Parameters button, which will bring up the Format Parameters dialog. If the Parameters button has an exclamation point ( ! ) at the end of it, this means that there are mandatory parameters that need to be set. To learn more about the format's specific parameters you can click on the Help button in the Parameters window.\
-We can accept the default parameters for the Microsoft Excel writer.
+
+Change Overwrite Existing File to Yes. This way if we run the workspace multiple times, we'll just rewrite the Excel file each time, instead of appending records.
+
+![Overwrite existing file parameter](./overwrite.png)
 
 *c. Coordinate System*\
 The writer will keep the coordinate system that was in the original dataset or set during the workspace. If you would like the output dataset to be in a different coordinate system, you can enter the desired coordinate system in the Coord. System box to reproject on the fly.\
