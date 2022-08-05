@@ -1,17 +1,17 @@
 <head><base target="_blank"> </head>
 
 #### 1\. Open FME Workbench
-Open FME Workbench to start creating a workspace. To do this in Windows go to Start > FME Desktop 2021.0 > FME Workbench.
+Open FME Workbench to start creating a workspace. To do this in Windows go to Start > FME Desktop 2022.0 > FME Workbench.
 
 We will be using FME Workbench for the entirety of the tutorial series. FME Workbench is where you will author all of your workspaces.
 
 #### 2\. Start a New Workspace
-After FME Workbench opens, click on the New button to create a new workspace. The empty workspace is referred to as the "canvas." The canvas is where all of the objects in a workspace will be contained.
+After FME Workbench opens, click on the Blank Workspace button to create a new workspace. The empty area you see is referred to as the "canvas." The canvas is where all of the objects in a workspace will be contained.
 
 ![WorkbenchOverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azF)
 
 #### 3\. Drag and Drop to Add Data
-In the File Manager, browse to the C:\FMEData2021\Resources\GettingStarted\Data folder. In the Data folder, click on the **LocalAddresses.csv** and drag it into FME Workbench.\
+In the File Manager, browse to the C:\FMEData2022\Resources\GettingStarted\Data folder. In the Data folder, click on the **LocalAddresses.csv** and drag it into FME Workbench.\
 ![AddCSV.gif](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azK)
 
 #### 4\. Introduction to the Add Reader Dialog
@@ -44,7 +44,7 @@ For this example, CSV is the feature type name. If you want the reader feature t
 ![FeatureType.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028azZ)
 
 #### 6\. Add Another Reader
-We need to add one more reader to the canvas before we can get started. To add a second reader, click on the Reader button on the top menu bar. Enter Esri Shapefile as the Format, and then browse to the dataset using the ellipsis button. Find the water_service_area.shp file in the C:\FMEData2021\Resources\GettingStarted\Data folder. Clear the Coord. System parameter and then click OK. (The Coord. System will still have a value from when we added the CSV file).\
+We need to add one more reader to the canvas before we can get started. To add a second reader, click on the Reader button on the top menu bar. Enter Esri Shapefile as the Format, and then browse to the dataset using the ellipsis button. Find the water_service_area.shp file in the C:\FMEData2022\Resources\GettingStarted\Data folder. Clear the Coord. System parameter if it has a value and then click OK. (The Coord. System might still have a value from when we added the CSV file).\
 Optionally, you can drag and drop the file from your file browser; just be sure to drag the water_service_area.shp file and not one of the required Shapefile sidecar files.\
 ![EsriReader.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7I&feoid=00N30000006n8wU&refid=0EM4Q0000028aze)
 

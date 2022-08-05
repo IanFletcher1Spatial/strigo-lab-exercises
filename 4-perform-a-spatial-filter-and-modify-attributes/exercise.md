@@ -2,7 +2,7 @@
 
 Since we want to know which customers are affected by the failed water pump, we will need to filter the customers based on their spatial relationship to the water_service_area with a RED status. After we have determined which customers are affected, we will need to clean up the attributes before we can write the data out.
 
-Continue working in the workspace from the previous exercise or open the C:\FMEData2021\Resources\GettingStarted\Workspaces\GettingStarted-FilterAndModify-Begin.fmwt workspace.\
+Continue working in the workspace from the previous exercise or open the C:\FMEData2022\Resources\GettingStarted\Workspaces\GettingStarted-FilterAndModify-Begin.fmwt workspace.\
 ![PreviousOverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7X&feoid=00N30000006n8wU&refid=0EM4Q0000028b3R)
 
 #### 1\.  Add Another Transformer
@@ -18,8 +18,8 @@ The only thing that needs to be changed in the SpatialFilter is unchecking **Mer
 ![SpatialFilter.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7X&feoid=00N30000006n8wU&refid=0EM4Q0000028b3g)\
 
 #### 3\. Run the Workspace and Inspect the SpatialFilter
-If you have time, run the workspace once more and inspect the Passed output port on the SpatialFilter by clicking the green magnifying glass.\
-You should have 6,722 points output and should be in roughly the same shape as when we viewed the water_service_area in a [previous article](https://community.safe.com/s/article/getting-started-with-fme-desktop-view-data).\
+Run the workspace once more and inspect the Passed output port on the SpatialFilter by clicking the green magnifying glass.\
+You should have 6,722 points output and should be in roughly the same shape as when we viewed the water_service_area in exercise 2.\
 ![SpatialFilterOutput.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lK7X&feoid=00N30000006n8wU&refid=0EM4Q0000028b3q)
 
 #### 4\. Clean Up Attributes with an AttributeManager

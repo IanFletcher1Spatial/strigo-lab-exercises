@@ -1,14 +1,14 @@
 <head><base target="_blank"> </head>
 
 #### 1\. Open FME Workbench
-In FME Workbench, open the C:\FMEData2021\Resources\GettingStarted\Workspaces\GettingStarted-WriteData-Begin.fmwt.
+In FME Workbench, open the C:\FMEData2022\Resources\GettingStarted\Workspaces\GettingStarted-WriteData-Begin.fmwt.
 If you completed the [Getting Started with FME Desktop tutorial](https://community.safe.com/s/article/getting-started-with-fme-desktop-translate-data-be), it is the same final workspace (GettingStarted-WriteData-Begin.fmwt).\
 ![WorkspaceOverview.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292lQ)
 
 This workspace reads in water service areas for the City of Surrey, in British Columbia, then a Tester transformer is used to select the service area with a status of RED. Then using a SpatialFilter, it selects all the addresses that are within the RED water service area. After cleaning up the attributes with an AttributeManager, the customer addresses that are affected are written out to an Excel spreadsheet to be manually notified.
 
 #### 2\. Run the Workspace
-It is always a good idea to run a workspace in FME Workbench before publishing it to FME Server because if it doesn't run in FME Workbench, it won't run in FME Server. Run the workspace and confirm it was successful. See [Getting Started with FME Desktop: Write Data](https://community.safe.com/s/article/getting-started-with-fme-desktop-write-data) to learn how to run a workspace in FME Workbench.\
+It is always a good idea to run a workspace in FME Workbench before publishing it to FME Server because if it doesn't run in FME Workbench, it won't run in FME Server. Run the workspace and confirm it was successful. Revisit exercise 5 if you forget how to run a workspace in FME Workbench.\
 It is also good practice to save the workspace before publishing.
 
 #### 3\. Publish Workspace to FME Server
@@ -16,7 +16,11 @@ Now that we have confirmed the workspace works, we can publish it to FME Server.
 ![Publish.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292lM)
 
 *a. Add Web Connection*\
-In the FME Server Publishing Wizard, we will need to set up a new connection. Click on the drop-down next to Connection and select **Add Web Connection**.
+In the FME Server Publishing Wizard, we will need to connect to FME Server.
+
+**Note**: your training machine might already have a Web Connection named Training FME Server, in which case you can just select it and click **Next** and move onto section b below.
+
+If you need to add one, click on the drop-down next to Connection and select **Add Web Connection**.
 
 An FME Server Connection dialog will appear, here we will need to set the parameters to our FME Server. Set the Connection Name to something memorable, we used `Training FME Server`.
 
@@ -60,7 +64,7 @@ To confirm whether or not the workspace was published successfully, check the *T
 ![Logfile.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292lg)
 
 #### 4\. Open the FME Server Web Interface.
-Log in to the FME Server Web Interface using the credentials you set up in [Tour the FME Server Interface and Run a Workspace](https://community.safe.com/s/article/Tour-the-FME-Server-Interface-and-Run-a-Workspace).\
+Log in to the FME Server Web Interface using the credentials you set up step 2 (`admin/FMElearnings`).\
 The workspace will appear in the "Last Published Workspaces" section of the home page. You may need to refresh your web interface if you had FME Server open from the previous exercise to see the workspace appear.\
 ![LastPublished.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292mT)
 
@@ -70,7 +74,7 @@ You can choose to run the workspace by clicking on the **AddressesToNotify.fmw**
 On the Run Workspaces page, select the **Server Tutorial Repository**. The Workspace field below will automatically be populated with the AddressesToNotify.fmw workspace because it is the only one in the repository. The Service drop-down shows the two services we registered this workspace with. Select **Data Download**.\
 ![RunWorkspace.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKMh&feoid=00N30000006n8wU&refid=0EM4Q00000292mi)
 
-If there are any published parameters in the workspace, they can be set on the run workspace page. For now, we can ignore the Source parameters, we will modify them in the [next article](https://community.safe.com/s/article/create-self-serve-access-to-data-with-fme-server). Click on **Run** to run the workspace.\
+If there are any published parameters in the workspace, they can be set on the run workspace page. For now, we can ignore the Source parameters, we will modify them in the next exercise. Click on **Run** to run the workspace.\
 If you see a third parameter for Excel Output, change your Service to Data Download.
 
 #### 6\. Review the Results Page

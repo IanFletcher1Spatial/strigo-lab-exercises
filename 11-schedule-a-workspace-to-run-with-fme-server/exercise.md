@@ -10,10 +10,10 @@ This opens the *Automations* page. Close the *Get Started* popup that appears. T
 When creating a new automation, a Trigger component will already be on the canvas, you will just need to set it up. Double-click on the **Trigger** component to open the parameters.\
 ![Trigger.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000ogcq&feoid=00N30000006n8wU&refid=0EM4Q00000295hb)
 
-In the Trigger parameters, we will set up a schedule. Set the *Trigger* to **Schedule Initiated**. Once the Trigger type is set, more parameters will appear.
+In the Trigger parameters, we will set up a schedule. Set the *Trigger* to **FME Server Schedule (initiated)**. Once the Trigger type is set, more parameters will appear.
 
 For this schedule, we want it to run once daily at the same time. To do this, set the *Schedule Type* to **Repeat on Interval**. Then ensure *Repeat Every* is set to **1 day**. Enable **Start Immediately**, this will set the Start time to the current time, every time you start the automation. Finally, set the *End* to a week from now. Click **Apply** once all the parameters are set.\
-![Scheduleparams.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000ogcq&feoid=00N30000006n8wU&refid=0EM4Q00000295hg)
+![Schedule parameters](schedule.png)
 
 #### 3. Add and Configure an Action
 With the Trigger set up, we need our schedule to do something. Double-click on the silhouetted **Next Action** component connected to the success output port (the one with the checkmark); this will open the Action parameters.\
@@ -43,7 +43,7 @@ Click on the Start Automation button in the top right corner.\
 Since this is the first time we are starting the automation, we will be prompted to save. Save the automation as `Automate Addresses To Notify` and then click the plus sign to add a *Tag*. Input a tag name of `Server Tutorial` and then click **OK** twice to save the automation.\
 ![SaveAS.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000ogcq&feoid=00N30000006n8wU&refid=0EM4Q00000295it)
 
-Once the automation has been saved, it will be started.  Once an automation has been started, it needs to be stopped before it can be modified.
+Once the automation has been saved, click the Start Automation button.  Once an automation has been started, it needs to be stopped before it can be modified.
 
 When the automation is running, there will be a red Stop Automation button where the Start Automation button was, and a banner will be at the top, stating that the automation needs to be stopped before editing.\
 ![StopAutomation.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000ogcq&feoid=00N30000006n8wU&refid=0EM4Q00000295j3)

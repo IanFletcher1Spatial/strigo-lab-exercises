@@ -34,7 +34,7 @@ If you are logged in as an administrator, under the Admin grouping are a number 
 
 The top right corner contains a Help button for links to documentation and articles, including resources for developers.
 
-![](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000smiR&feoid=00N30000006n8wU&refid=0EM4Q000002WCbm)
+![](help.png)
 
 Next to that is the User Settings button.
 

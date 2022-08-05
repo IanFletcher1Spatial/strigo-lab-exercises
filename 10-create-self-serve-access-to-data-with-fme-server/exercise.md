@@ -1,7 +1,7 @@
 <head><base target="_blank"> </head>
 
 #### 1\. Open FME Workbench
-Continue with the workspace from the previous exercise in FME Workbench. Alternatively, open the template `C:\FMEData2021\Resources\GettingStarted\Workspaces\GettingStarted-WriteData-Begin.fmwt` in FME Workbench.
+Continue with the workspace from the previous exercise in FME Workbench. Alternatively, open the template `C:\FMEData2022\Resources\GettingStarted\Workspaces\GettingStarted-WriteData-Begin.fmwt` in FME Workbench.
 
 #### 2\. Open the Parameter Manager
 
@@ -53,7 +53,7 @@ Now that we have a SERVICE_DATE parameter, we need to create an attribute to uti
 If you run the workspace immediately, it will use the original input Shapefile. However, if you select **Prompt for User Parameters** from the drop-down next to *Run* then click **Run**, you will be prompted to choose the input file, as well as a service date.\
 ![RunPrompt.png](https://community.safe.com/servlet/rtaImage?eid=ka14Q000000lKWI&feoid=00N30000006n8wU&refid=0EM4Q00000294Pq)
 
-In the Translation Parameter Values dialog that appears when the workspace is run, browse to the updated `water_service_area_updated.zip`,  which is in the `C:\FMEData2021\Resources\GettingStarted\Data` folder. This zip file contains all of the sidecar shapefile files and has a new service area that customers will have to be notified about. In the File Browser, change the Shapefiles (`*.shp`) drop-down to **All File(s)** to see the zip file.
+In the Translation Parameter Values dialog that appears when the workspace is run, browse to the updated `water_service_area_updated.zip`,  which is in the `C:\FMEData2022\Resources\GettingStarted\Data` folder. This zip file contains all of the sidecar shapefile files and has a new service area that customers will have to be notified about. In the File Browser, change the Shapefiles (`*.shp`) drop-down to **All File(s)** to see the zip file.
 
 Then set the Date of Water ServiceService Date to some time within the next week. Finally, before clicking Run, uncheck the **Save As User Parameter Default Values**. Ignore the Destination Microsoft Excel File, we can leave it as the default for now. We don't want these to be saved as the default because this is just a test run to ensure the workspace is working correctly.\
 ![Prompt.png](Prompt.png)
