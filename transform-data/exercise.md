@@ -46,7 +46,7 @@ The final step before we write out our data to create an Excel file of business 
 
 #### 5. Clean Up Connection Lines
 
-Delete the connection between the AttributeValidator and the writer feature type by right-clicking it and choosing Delete.
+Delete the connection between the reader and writer feature types by right-clicking it and choosing Delete.
 
 ![AttributeManager results](./images/delete.png)
 
