@@ -23,13 +23,13 @@ If it's not already running, click the Start Automation button on the top-right 
 Now it will run whenever the schedule triggers.
 
 
-#### 3. Manually Trigger the Automation
+#### 4. Manually Trigger the Automation
 
 So we don't have to sit around waiting, double-click the Schedule again and then click the Trigger button in the bottom right. This button lets you manually trigger Automations for testing.
 
 ![Trigger automation](./images/trigger.png)
 
-#### 4. View Triggered Jobs
+#### 5. View Triggered Jobs
 
 You can confirm the Automation ran the workspace by clicking Menu > View Triggered Jobs.
 
@@ -41,6 +41,6 @@ You should see one job where FoodVendors.fmw ran recently. You can click the Job
 
 Congratulations! You built an FME workspace and learned about creating data integration automations using FME Server.
 
-#### 5. Continue to Next Exercise
+#### 6. Continue to Next Exercise
 
 Click the Next button below.
