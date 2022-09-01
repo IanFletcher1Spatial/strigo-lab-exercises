@@ -2,6 +2,6 @@
 
 #### 1. Course Feedback Form
 
-Please click [here](https://forms.gle/A8NhhEUBqNgL1e1c7) to fill out our course feedback form.
+Please click [here](https://www.surveymonkey.ca/r/fme_accelerator) to fill out our course feedback form.
 
 #### 2. Click "Done"
