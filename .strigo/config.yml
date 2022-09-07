@@ -3,6 +3,13 @@
 classes:
   - exercises:
       # `file` is relative to .strigo directory
+      - file: "../log-in-to-fme-server/exercise.md"
+        title: "log-in-to-fme-server"
+      - file: "../log-in-to-the-fme-academy/exercise.md"
+        title: "log-in-to-the-fme-academy"
+      - file: "../what-is-fme-server-/exercise.md"
+        title: "what-is-fme-server-"
+
       - file: "../what-are-automations/exercise.md"
         title: "What are Automations?"
       - file: "../build-basic-automations/exercise.md"
@@ -31,36 +38,22 @@ classes:
         title: "Run Workspaces with Email Triggers"
       - file: "../use-the-automation-writer/exercise.md"
         title: "Use the Automation Writer"
+
       - file: "../create-basic-self-serve-workflows/exercise.md"
         title: "create-basic-self-serve-workflows"
       - file: "../create-no-code-web-apps/exercise.md"
         title: "create-no-code-web-apps"
       - file: "../customize-an-fme-server-app/exercise.md"
         title: "customize-an-fme-server-app"
-      - file: "../exercise--build-a-basic-automation/exercise.md"
-        title: "exercise--build-a-basic-automation"
-      - file: "../exercise--chain-multiple-jobs-in-an-automation/exercise.md"
-        title: "exercise--chain-multiple-jobs-in-an-automation"
-      - file: "../exercise--create-a-directory-watch-automation/exercise.md"
-        title: "exercise--create-a-directory-watch-automation"
-      - file: "../exercise--orchestrate-complex-jobs/exercise.md"
-        title: "exercise--orchestrate-complex-jobs"
-      - file: "../exercise--process-directory-watch-messages/exercise.md"
-        title: "exercise--process-directory-watch-messages"
-      - file: "../exercise--run-a-workspace-in-response-to-incoming-email/exercise.md"
-        title: "exercise--run-a-workspace-in-response-to-incoming-email"
-      - file: "../exercise--use-the-automations-writer/exercise.md"
-        title: "exercise--use-the-automations-writer"
+
+
       - file: "../fme-server-components/exercise.md"
         title: "fme-server-components"
       - file: "../fme-server-use-cases/exercise.md"
         title: "fme-server-use-cases"
       - file: "../let-users-choose-a-geographic-area-of-interest/exercise.md"
         title: "let-users-choose-a-geographic-area-of-interest"
-      - file: "../log-in-to-fme-server/exercise.md"
-        title: "log-in-to-fme-server"
-      - file: "../log-in-to-the-fme-academy/exercise.md"
-        title: "log-in-to-the-fme-academy"
+
       - file: "../manage-source-data/exercise.md"
         title: "manage-source-data"
       - file: "../publish-data-with-a-workspace/exercise.md"
@@ -71,10 +64,8 @@ classes:
         title: "reuse-user-parameters"
       - file: "../run-a-workspace-in-fme-server/exercise.md"
         title: "run-a-workspace-in-fme-server"
-      - file: "../run-workspaces-on-a-schedule/exercise.md"
-        title: "run-workspaces-on-a-schedule"
-      - file: "../run-workspaces-with-email-triggers/exercise.md"
-        title: "run-workspaces-with-email-triggers"
+
+
       - file: "../share-content-in-fme-server--create-a-server-app/exercise.md"
         title: "share-content-in-fme-server--create-a-server-app"
       - file: "../share-content-in-fme-server--create-webhook-url/exercise.md"
@@ -85,18 +76,14 @@ classes:
         title: "use-gallery-apps"
       - file: "../use-temporary-uploads-for-end-users/exercise.md"
         title: "use-temporary-uploads-for-end-users"
-      - file: "../use-the-automation-writer/exercise.md"
-        title: "use-the-automation-writer"
+
       - file: "../use-the-geometry-published-parameter/exercise.md"
         title: "use-the-geometry-published-parameter"
       - file: "../use-the-resource-file-system/exercise.md"
         title: "use-the-resource-file-system"
       - file: "../use-the-resource-filesystem/exercise.md"
         title: "use-the-resource-filesystem"
-      - file: "../what-are-automations-/exercise.md"
-        title: "what-are-automations-"
-      - file: "../what-is-fme-server-/exercise.md"
-        title: "what-is-fme-server-"
+
 
 # Class exercises - configuration for multiple classes
 # ---
