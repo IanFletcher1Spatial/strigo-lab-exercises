@@ -3,6 +3,8 @@
 classes:
   - exercises:
       # `file` is relative to .strigo directory
+      - file: "../what-are-automations?/exercise.md"
+        title: "What are Automations?"
       - file: "../build-basic-automations/exercise.md"
         title: "Build Basic Automations"
       - file: "../build-versatile-automations/exercise.md"
@@ -30,7 +32,7 @@ classes:
       - file: "../use-the-automation-writer/exercise.md"
         title: "Use the Automation Writer"
 
-        
+
       - file: "../create-basic-self-serve-workflows/exercise.md"
         title: "create-basic-self-serve-workflows"
       - file: "../create-no-code-web-apps/exercise.md"
