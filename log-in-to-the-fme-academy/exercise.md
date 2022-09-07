@@ -1,8 +1,11 @@
 <head><base target="_blank"> </head>
 
-#### 1. Go to the [Publish Workflows to the Web](https://safe.my.trailhead.com/en/content/safe/trails/trail-publish-workflows-to-the-web) trail.
+#### 1. Go to the **Create Data Integration Apps** trail.
 
-Click [here](https://safe.my.trailhead.com/en/content/safe/trails/trail-publish-workflows-to-the-web) to go to the Publish Workflows to the Web trail. The FME Academy will open in a new tab in your browser. If you have already logged in to your FME Academy account, you will be taken directly to the trail. If not, you will have to log in or sign up first.
+Click [this link](https://safe.my.trailhead.com/en/content/safe/trails/create-data-integration-apps) to open the Create Data Integration Apps trail in a new tab. You may be prompted to log in or register a new account if you do not have one already.
+
+  
+
 
 #### 2. Log In
 
@@ -10,7 +13,11 @@ If you have not already logged in to your FME Academy account, you will see this
 
 [![Log In](https://s3-eu-west-1.amazonaws.com/strigo-exercise-files/uploads%2F1627076191145-1627076191145.png)](https://github.com/safesoftware/strigo-lab-exercises/blob/integrate-data-with-the-fme-platform/log-in-to-academy/log-in.png)
 
-If you already have an FME Academy account, Log In, and you will be taken to the [Publish Workflows to the Web](https://safe.my.trailhead.com/en/content/safe/trails/trail-publish-workflows-to-the-web) trail.
+If you already have an FME Academy account, Log In, and you will be taken to the [Create Data Integration Apps](https://safe.my.trailhead.com/en/content/safe/trails/create-data-integration-apps) trail.
+
+#### 
+
+#### 
 
 #### 3. Sign Up
 
@@ -20,8 +27,15 @@ If you do not already have an FME Academy account, click on Sign Up
 You will then be taken to the Safe Account page to finalize your account settings  
 [![Safe Account](https://s3-eu-west-1.amazonaws.com/strigo-exercise-files/uploads%2F1627076191104-1627076191104.png)](https://github.com/safesoftware/strigo-lab-exercises/blob/integrate-data-with-the-fme-platform/log-in-to-academy/safe-account.png)
 
-Enter your desired username and confirm your password, then click *Continue* to be taken to the [Publish Workflows to the Web](https://safe.my.trailhead.com/en/content/safe/trails/trail-publish-workflows-to-the-web) trail.
+Enter your desired username and confirm your password, then click *Continue* to be taken to the [Create Data Integration Apps](https://safe.my.trailhead.com/en/content/safe/trails/create-data-integration-apps) trail.
+
+#### 
+
+#### 
 
 #### 4. Click "Next"
+
+  
+
 
 
