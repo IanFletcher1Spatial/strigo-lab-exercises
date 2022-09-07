@@ -3,19 +3,14 @@
 classes:
   - exercises:
       # `file` is relative to .strigo directory
-
       - file: "../exercise-log-in-to-the-fme-academy/exercise.md"
         title: "Exercise: Log in to the FME Academy"
-
-        # What is FME Server?
       - file: "../what-is-fme-server/exercise.md"
         title: "What is FME Server?"
       - file: "../fme-server-use-cases/exercise.md"
         title: "FME Server Use Cases"
       - file: "../fme-server-components/exercise.md"
         title: "FME Server Components"
-
-        #Publish Workflows to the Web
       - file: "../connect-fme-workbench-to-fme-server/exercise.md"
         title: "Connect FME Workbench to FME Server"
       - file: "../exercise-publish-to-fme-server/exercise.md"
@@ -30,16 +25,12 @@ classes:
         title: "Share Content In FME Server"
       - file: "../exercise-share-a-workspace/exercise.md"
         title: "Exercise: Share a Workspace"
-
-        # Build Basic Self-Serve Workflows
       - file: "../create-basic-self-serve-workflows/exercise.md"
         title: "Create Basic Self-Serve Workflows"
       - file: "../configure-workflows-for-the-web/exercise.md"
         title: "Configure Workflows for the Web"
       - file: "../exercise-create-a-simple-self-serve-portal/exercise.md"
         title: "Exercise: Create a Simple Self-Serve Portal"
-
-        # Manage FME Server Data and Connections
       - file: "../manage-source-data/exercise.md"
         title: "Manage Source Data"
       - file: "../publish-data-with-a-workspace/exercise.md"
@@ -54,8 +45,6 @@ classes:
         title: "Exercise: Use the Resource File System"
       - file: "../use-database-and-web-connections/exercise.md"
         title: "Use Database and Web Connections"
-
-        # Build Versatile Self-Serve Workflows
       - file: "../design-user-controlled-workspaces/exercise.md"
         title: "Design User-Controlled Workspaces"
       - file: "../exercise-create-a-user-controlled-workspace/exercise.md"
@@ -68,8 +57,6 @@ classes:
         title: "Let Users Choose a Geographic Area of interest"
       - file: "../exercise-use-the-geometry-published-parameter/exercise.md"
         title: "Exercise: Use the Geometry Published Parameter"
-
-        # Create No-Code Web Apps
       - file: "../share-workspaces-as-apps/exercise.md"
         title: "Share Workspaces as Apps"
       - file: "../exercise-create-an-fme-server-app/exercise.md"
@@ -78,16 +65,12 @@ classes:
         title: "Exercise: Customize an FME Server App"
       - file: "../use-gallery-apps/exercise.md"
         title: "Use Gallery Apps"
-
-        # Build Basic Automations
       - file: "../what-are-automations/exercise.md"
         title: "What are Automations?"
       - file: "../build-basic-automations/exercise.md"
         title: "Build Basic Automations"
       - file: "../exercise-build-a-basic-automation/exercise.md"
         title: "Exercise: Build A Basic Automation"
-
-        # Build Versatile Automations
       - file: "../run-workspaces-with-directory-watch-triggers/exercise.md"
         title: "Run Workspaces with Directory Watch Triggers"
       - file: "../exercise-create-a-resources-network-directory-automation/exercise.md"
@@ -102,8 +85,6 @@ classes:
         title: "Run Workspaces with Email Triggers"
       - file: "../exercise-run-a-workspace-in-response-to-incoming-email/exercise.md"
         title: "Exercise: Run a Workspace in Response to Incoming Email"
-
-        # Connect Automations with Job Orchestration
       - file: "../connect-workspaces-in-automations/exercise.md"
         title: "Connect Workspaces in Automations"
       - file: "../use-the-automations-writer/exercise.md"
@@ -114,7 +95,6 @@ classes:
         title: "Exercise: Chain Multiple Jobs in an Automation"
       - file: "../exercise-orchestrate-complex-jobs/exercise.md"
         title: "Exercise: Orchestrate Complex Jobs"
-
       - file: "../course-wrap-up/exercise.md"
         title: "Course Wrap Up"
 
