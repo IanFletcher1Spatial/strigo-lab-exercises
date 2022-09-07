@@ -2,7 +2,6 @@
 ---
 classes:
   - exercises:
-      # `file` is relative to .strigo directory
       - file: "../exercise-log-in-to-the-fme-academy/exercise.md"
         title: "Exercise: Log in to the FME Academy"
       - file: "../what-is-fme-server/exercise.md"
@@ -97,32 +96,3 @@ classes:
         title: "Exercise: Orchestrate Complex Jobs"
       - file: "../course-wrap-up/exercise.md"
         title: "Course Wrap Up"
-
-
-
-# Class exercises - configuration for multiple classes
-# ---
-# classes:
-#   # `class_id` may be omitted if there is only one class in this file
-#   - class_id: "<your_class_id>"
-#     exercises:
-#       # `file` is relative to .strigo directory
-#       - file: "../hello-world/hello.md"
-#         title: "Hello!"
-#       - file: "../hello-world/world.md"
-#         title: "World!"
-#   - class_id: "<your_class_id>"
-#     exercises:
-#       - file: "../markup-syntaxes/markdown.md"
-#         title: "Markdown!"
-#         # `syntax` is optional
-#         # can be "md" | "rst"
-#         # uses file extension as fallback
-#         syntax: "md"
-#       - file: "../markup-syntaxes/restructured.rst"
-#         title: "Restructed"
-#         syntax: "rst"
-#   - class_id: "<your_class_id>"
-#     exercises:
-#       - file: "../relative-images/md-with-relative-imgs.md"
-#         title: "Relative images"
