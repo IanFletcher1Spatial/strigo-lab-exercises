@@ -4,29 +4,29 @@ classes:
   - exercises:
       # `file` is relative to .strigo directory
 
-      - file: "../exercise-log-in-to-the-FME-academy/exercise.md"
+      - file: "../exercise-log-in-to-the-fme-academy/exercise.md"
         title: "Exercise: Log in to the FME Academy"
 
         # What is FME Server?
-      - file: "../what-is-FME-server-/exercise.md"
+      - file: "../what-is-fme-server/exercise.md"
         title: "What is FME Server?"
-      - file: "../FME-server-use-cases/exercise.md"
+      - file: "../fme-server-use-cases/exercise.md"
         title: "FME Server Use Cases"
-      - file: "../FME-server-components/exercise.md"
+      - file: "../fme-server-components/exercise.md"
         title: "FME Server Components"
 
         #Publish Workflows to the Web
-      - file: "../connect-FME-Workbench-to-FME-server/exercise.md"
+      - file: "../connect-fme-workbench-to-fme-server/exercise.md"
         title: "Connect FME Workbench to FME Server"
-      - file: "../exercise-publish-to-FME-server/exercise.md"
+      - file: "../exercise-publish-to-fme-server/exercise.md"
         title: "Exercise: Publish to FME server"
-      - file: "../log-in-to-FME-server/exercise.md"
+      - file: "../log-in-to-fme-server/exercise.md"
         title: "Log In to FME Server"
-      - file: "../run-a-workspace-in-FME-server/exercise.md"
+      - file: "../run-a-workspace-in-fme-server/exercise.md"
         title: "Run a Workspace in FME Server"
-      - file: "../exercise-run-a-workspace-in-FME-server/exercise.md"
+      - file: "../exercise-run-a-workspace-in-fme-server/exercise.md"
         title: "Exercise: Run a Workspace in FME Server"
-      - file: "../share-content-in-FME-server/exercise.md"
+      - file: "../share-content-in-fme-server/exercise.md"
         title: "Share Content In FME Server"
       - file: "../exercise-share-a-workspace/exercise.md"
         title: "Exercise: Share a Workspace"
@@ -48,7 +48,7 @@ classes:
         title: "Use Temporary Uploads for End Users"
       - file: "../use-the-resource-file-system/exercise.md"
         title: "Use the Resource File System"
-      - file: "../author-for-the-resource-system/exercise.md"
+      - file: "../author-for-the-resources-system/exercise.md"
         title: "Author for the Resources System"
       - file: "../exercise-use-the-resource-file-system/exercise.md"
         title: "Exercise: Use the Resource File System"
@@ -60,7 +60,7 @@ classes:
         title: "Design User-Controlled Workspaces"
       - file: "../exercise-create-a-user-controlled-workspace/exercise.md"
         title: "Exercise: Create a User-Controlled Workspace"
-      - file: "../excerise-reuse-user-parameters/exercise.md"
+      - file: "../exercise-reuse-user-parameters/exercise.md"
         title: "Exercise: Reuse User Parameters"
       - file: "../choose-the-correct-parameter-type/exercise.md"
         title: "Choose the Correct Parameter Type"
@@ -110,11 +110,13 @@ classes:
         title: "Use the Automations Writer"
       - file: "../exercise-use-the-automations-writer/exercise.md"
         title: "Exercise: Use the Automations Writer"
-      - file: "../exercise--chain-multiple-jobs-in-an-automation/exercise.md"
+      - file: "../exercise-chain-multiple-jobs-in-an-automation/exercise.md"
         title: "Exercise: Chain Multiple Jobs in an Automation"
-      - file: "../exercise--orchestrate-complex-jobs/exercise.md"
+      - file: "../exercise-orchestrate-complex-jobs/exercise.md"
         title: "Exercise: Orchestrate Complex Jobs"
 
+      - file: "../course-wrap-up/exercise.md"
+        title: "Course Wrap Up"
 
 
 
