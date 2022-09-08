@@ -2,7 +2,7 @@
 
 #### 1. Challenge
 
-Complete the [What is FME Server? Challenge](https://safe.my.trailhead.com/en/content/safe/modules/what-is-fme-server/what-is-fme-server?trail_id=trail-publish-workflows-to-the-web#challenge).
+Complete the [What is FME Server? Challenge](https://safe.my.trailhead.com/content/safe/modules/what-is-fme-server/what-is-fme-server?trail_id=fme-server-authoring#challenge).
 
 #### 2. Click "Next"
 
