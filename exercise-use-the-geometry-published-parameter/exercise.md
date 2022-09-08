@@ -5,7 +5,7 @@
   
 
 
-#### **2. Complete the module**[**challenge**](https://safe.my.trailhead.com/en/content/safe/modules/build-versatile-self-serve-workflows/exercise-use-the-geometry-published-parameter?trail_id=create-data-integration-apps#challenge).
+#### **2. Complete the unit** [**challenge**](https://safe.my.trailhead.com/en/content/safe/modules/build-versatile-self-serve-workflows/exercise-use-the-geometry-published-parameter?trail_id=create-data-integration-apps#challenge).
 
 Go to the next module when you've finished the quiz.
 
