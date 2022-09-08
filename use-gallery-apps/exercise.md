@@ -5,8 +5,8 @@
   
 
 
-#### **2. Complete the module**[**challenge**](https://safe.my.trailhead.com/en/content/safe/modules/create-no-code-web-apps/use-gallery-apps?trail_id=create-data-integration-apps#challenge).
+#### **2. Complete the unit** [**challenge**](https://safe.my.trailhead.com/en/content/safe/modules/create-no-code-web-apps/use-gallery-apps?trail_id=create-data-integration-apps#challenge).
 
-When you've finished the quiz, you can sit back and relax!  That brings us to the end of the course.
+When you've finished the quiz, you can sit back and relax!  That brings us to the end of the Create No-Code Web Apps module.
 
 
