@@ -5,7 +5,7 @@
   
 
 
-#### **2. Complete the module**[**challenge**](https://safe.my.trailhead.com/content/safe/modules/build-basic-automations/exercise-build-a-basic-automation?trail_id=automate-data-integration-tasks#challenge).
+#### **2. Complete the unit** [**challenge**](https://safe.my.trailhead.com/content/safe/modules/build-basic-automations/exercise-build-a-basic-automation?trail_id=automate-data-integration-tasks#challenge).
 
 Go to the next module when you've finished the quiz.
 
