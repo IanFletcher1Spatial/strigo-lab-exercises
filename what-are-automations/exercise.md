@@ -1,6 +1,6 @@
 <head><base target="_blank"> </head>
 
-#### **1. Open the first module Build Basic Automations, and start the first unit [What Are Automations?](https://safe.my.trailhead.com/content/safe/modules/build-basic-automations/what-are-automations?trail_id=automate-data-integration-tasks).**
+#### **1. Open the module Build Basic Automations, and start the first unit [What Are Automations?](https://safe.my.trailhead.com/content/safe/modules/build-basic-automations/what-are-automations?trail_id=automate-data-integration-tasks).**
 
   
 
