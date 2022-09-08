@@ -2,6 +2,6 @@
 
 #### 1. Challenge
 
-Complete the [Connect Workspaces in Automations](https://safe.my.trailhead.com/content/safe/modules/connect-automations-with-job-orchestration/connect-workspaces-in-automations?trail_id=automate-data-integration-tasks#challenge).
+Complete the [Connect Workspaces in Automations](https://safe.my.trailhead.com/content/safe/modules/connect-automations-with-job-orchestration/connect-workspaces-in-automations?trail_id=fme-server-authoring#challenge).
 
 #### 2. Click "Next"
