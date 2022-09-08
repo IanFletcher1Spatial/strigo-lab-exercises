@@ -6,8 +6,8 @@ classes:
       #In Atom, create the file and title here. Then edit the MD file.
       #Use https://euangoddard.github.io/clipboard2markdown/  to create the clipboard2markdown
       #Add <head><base target="_blank"> </head> to the top of the MD file.
-      - file: "../exercise-log-in-to-the-fme-academy/exercise.md"
-        title: "Exercise: Log in to the FME Academy"
+      - file: "../1-exercise-log-in-to-the-fme-academy/exercise.md"
+        title: "1-Exercise: Log in to the FME Academy"
       - file: "../what-is-fme-server/exercise.md"
         title: "What is FME Server?"
       - file: "../fme-server-use-cases/exercise.md"
