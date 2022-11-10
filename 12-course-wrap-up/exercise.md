@@ -2,7 +2,7 @@
 
 #### 1. Course Feedback Form
 
-Please click [here](https://www.surveymonkey.com/r/gswtfpsurvey) to fill out out course feedback form.
+Please click [here](https://www.surveymonkey.ca/r/gs_fme) to fill out out course feedback form.
 Once you have completed the form, you will be directed to the quiz to obtain the Certificate of Achievement for this couse.
 
 #### 2. Complete the Quiz
