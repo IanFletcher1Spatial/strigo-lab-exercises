@@ -1,6 +1,22 @@
 <head><base target="_blank"> </head>
 
-#### 1. Perform Spatial Analysis (Spatial Join)
+#### 1. Add Annotation
+
+Right-click the food vendors CSV reader feature type and choose Attach Annotation.
+
+![Attaching annotation](./images/attach.png)
+
+Type in "Food Vendors." Click elsewhere to finish editing the Annotation.
+
+![Finished annotation](./images/vendors.png)
+
+#### 2. Save Your Workspace
+
+Click File > Save to save your workspace now that you have made a change.
+
+![Save workspace](./images/save.png)
+
+#### 3. Perform Spatial Analysis (Spatial Join)
 
 Find the Bufferer transformer in the "Determine Impacted Area" bookmark.
 
@@ -18,7 +34,7 @@ Next, we need to find which food vendor points intersect (or overlay) the affect
 
 Observe the feature counts for the SpatialFilter's Passed port. Four food vendors will be affected by the road construction.
 
-#### 2. Perform an Attribute-Based Filter
+#### 4. Perform an Attribute-Based Filter
 
 For the remaining steps, we'll just quickly look at each transformer for the sake of time.
 
@@ -30,7 +46,7 @@ We can do this using the Tester transformer, which lets us conduct simple pass/f
 
 ![Tester](./images/tester.png)
 
-#### 3. Perform an Attribute-Based Join
+#### 5. Perform an Attribute-Based Join
 
 Now that we have impacted food vendors and a list of current business licenses, we can join this data together to add business license data to the impacted vendors using the FeatureJoiner.
 
@@ -38,13 +54,13 @@ Now that we have impacted food vendors and a list of current business licenses, 
 
 Based on the feature counts for the FeatureJoiner, you should be able to see that two of the affected vendors had matching valid license data found, so they came out of the Joined port. Two did not have a valid license, so they came out of the UnjoinedLeft port. These two vendors are actually out of business, despite our source food vendor data claiming they are open. We do not need to alert an out-of-business food vendor, so it is OK that these two features will be filtered out of our data.
 
-#### 4. Manage Attributes
+#### 6. Manage Attributes
 
 The final step before we write out our data to create an Excel file of business to alert is to clean up our Attributes. We will use an AttributeManager to rename and remove some attributes. This transformer removes many unnecessary attributes and renames a few others.
 
 ![AttributeManager](./images/attributemanager.png)
 
-#### 5. Clean Up Connection Lines
+#### 7. Clean Up Connection Lines
 
 Delete the connection between the reader and writer feature types by right-clicking it and choosing Delete.
 
@@ -54,12 +70,12 @@ Add a new connection line between the AttributeManager's Output port and the Aff
 
 ![Drag to connect AttributeManager](./images/drag.png)
 
-#### 6. Write the Data
+#### 8. Write the Data
 
 The final step is to write the data to Excel. Run the workspace to write the data.
 
 To confirm the data was written successfully you can refer to the Translation Log (the last line should report `Translation was SUCCESSFUL`). You can also find the output data by clicking the writer feature type once to select it, then clicking the Open Containing Folder button that appears in the small toolbar above to find the Excel file. You can open it in Open Office (just click Next on the prompt until it opens) if you want to confirm it was written correctly.
 
-#### 7. Continue to Next Exercise
+#### 9. Continue to Next Exercise
 
 Click the Next button below.

@@ -28,6 +28,27 @@ Then click the Open Containing folder icon that appears on the small toolbar abo
 
 The location of the new AffectedVendors.xlsx file will appear in a new Windows Explorer window. To inspect the written data, you can double-click it, and click Next through the prompts. Eventually Open Office will open the written file.
 
-#### 5. Continue to Next Exercise
+#### 5. Find AttributeValidator
+
+Find the AttributeValidator in the "Validate Food Truck Data" bookmark to the right of the reader feature types. Note that it uses the food vendor data as its input.
+
+![AttributeValidator](./images/attributevalidator.png)
+
+#### 6. View AttributeValidator Parameters
+
+Double-click the AttributeValidator to view its parameters in a dialog.
+
+![AttributeValidator](./images/parameters.png)
+
+Like the rest of the transformers in this workspace, it is already configured. This transformer tests features to ensure each has a unique value for `KEY` and has a value for `BUSINESS_NAME`. Click Cancel to close the dialog without making changes.
+
+#### 7. Observe Streams in Data
+
+You should notice that the feature counts show how the data has been split into two streams by the AttributeValidator. 16 features come out of the Failed port (they did not meet the validation rules), while 75 come out of the Passed port and continue on to be written.
+
+![Feature counts](./images/counts.png)
+
+#### 8. Continue to Next Exercise
 
 Click the Next button below.
+
